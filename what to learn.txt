@@ -3,8 +3,15 @@
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
 	RE-CREATE THIS
-https://pulseapp.com/pricing
-- Da napravi samo cqlostno - cvetove, background, fon, snimki ne sa vajni, animacii ne sa vajni. (mojete i trimata da go napravite, samo se organizirate (ako iskate))
+
+https://pulseapp.com/pricing <- hristo
+https://www.frontendpractice.com/projects/abstract <- veselina
+https://www.frontendpractice.com/projects/lobe <- Poli 
+
+
+https://www.frontendpractice.com/projects/trello <- AZ (ako nqkoi iska, moje da se opita). 
+
+- Da napravi samo cqlostno - cvetove, background, fon, snimki ne sa vajni, animacii ne sa vajni. BEZ HARD CODING (POSITION ABSOLUTE) <----------------------- IMATE SROK DO 15.05 (DA IMAME 20 DENA ZA PROGRAMIRANETO) 
 
 
 https://sass-lang.com/guide <- Da se zapoznaesh s tova
