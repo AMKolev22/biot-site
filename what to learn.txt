@@ -24,3 +24,7 @@ flexbox layout navbar - https://www.youtube.com/watch?v=PwWHL3RyQgk
 grid position elements - https://www.youtube.com/watch?v=77E3xqDE_c8
 https://www.youtube.com/watch?v=jx5jmI0UlXU
 https://www.youtube.com/watch?v=Y9rHsdCxU8Q <- POLEZNO 
+
+
+------------------- POLEZNI NESHTA --------------------
+transform, z-index, padding, margin, box-model, display, razlichni neshta na flexbox, kato justify-content: space-between, ZADULJITELNO DA SE NAUCHI "BEFORE" I "AFTER".
