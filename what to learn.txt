@@ -5,6 +5,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS
 	RE-CREATE THIS
 https://pulseapp.com/pricing
 - Da napravi samo cqlostno - cvetove, background, fon, snimki ne sa vajni, animacii ne sa vajni. (mojete i trimata da go napravite, samo se organizirate (ako iskate))
+DO DRUGATA SEDMICA
 
 
 https://sass-lang.com/guide <- Da se zapoznaesh s tova
