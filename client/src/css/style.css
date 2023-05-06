@@ -1,1 +1,17 @@
-
+div{
+    height: 100vh;
+    font-size: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+div > p:hover{
+    color: red;
+    cursor: pointer;
+    transform: translateY(-5px);
+}

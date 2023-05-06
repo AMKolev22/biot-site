@@ -1,0 +1,19 @@
+------------LINKS------------
+
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+	RE-CREATE THIS
+https://pulseapp.com/pricing
+- Da napravi samo cqlostno - cvetove, background, fon, snimki ne sa vajni, animacii ne sa vajni. (mojete i trimata da go napravite, samo se organizirate (ako iskate))
+
+
+https://sass-lang.com/guide <- Da se zapoznaesh s tova
+https://tailwindcss.com/docs/installation <- Da se zapoznaete s tova 
+
+MNOGO VAJNO! DA NE SE POMNI VSICHKO, MOJE DA SE POLZVA REFERENCIQ KUM DOKUMENTACIQ, SHOTO INACHE AKO SE PROBVATE VSICHKO DA ZAPOMNITE, NISHTO NQMA DA SE POLUCHU.
+
+
+flexbox layout navbar - https://www.youtube.com/watch?v=PwWHL3RyQgk
+grid position elements - https://www.youtube.com/watch?v=77E3xqDE_c8
+https://www.youtube.com/watch?v=jx5jmI0UlXU
+https://www.youtube.com/watch?v=Y9rHsdCxU8Q <- POLEZNO 

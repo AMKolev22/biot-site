@@ -526,3 +526,14 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+nav > ul{
+  display: flex;
+  flex-direction: row;
+}
