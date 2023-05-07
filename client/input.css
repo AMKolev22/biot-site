@@ -2,18 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-nav > ul{
-    display: flex;
-    flex-direction: row;
-}
-
-body{
-    background-color: black;
-}
 
