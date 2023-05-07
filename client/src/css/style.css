@@ -4,25 +4,30 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    font-size: 10px;
     background: linear-gradient(to right, #012345, 	#234567);
 }
 li, a, button{
   color: white;
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   list-style: none;
 }
 img{
   cursor: pointer;
-  height: 2.5rem;
+  height: 2.3rem;
   margin-right: auto;
 }
 header{
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 2.5rem 4.8%;
+  padding: 2.6rem 4.4%;
+  position: --webkit-sticky;
+  position: sticky;
+  
+}
+ul{
+  padding-top: 10px;
 }
 .nav-links li{
   display: inline-block;
@@ -30,11 +35,4 @@ header{
   color: white;
 }
 
-button{
-  padding: 0.6rem 3rem;
-  background-color: black;
-  color: white;
-  border: none;
-  border-radius: 5rem;
-  cursor: pointer;
-}
+
