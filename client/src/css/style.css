@@ -1,3 +1,4 @@
+/*  za animacii unikalno -> rgb(202, 193, 193) */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -9,8 +10,9 @@ body{
 li, a, button{
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   list-style: none;
+  transition-duration: 0.3s;
 }
 img{
   cursor: pointer;
@@ -27,12 +29,18 @@ header{
   
 }
 ul{
-  padding-top: 10px;
+  padding-top: 15px;
 }
 .nav-links li{
   display: inline-block;
-  padding: 0 2rem;
+  padding: 0 2.3rem;
   color: white;
+}
+
+li:hover, a:hover{
+  transform: translateY(-5px);
+  cursor: pointer;
+  color: rgb(202, 193, 193);
 }
 
 
