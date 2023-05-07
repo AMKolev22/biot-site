@@ -1,17 +1,12 @@
-div{
-    height: 100vh;
-    font-size: 5rem;
-    width: 100vw;
+.navbar{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:  space-between;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-p{
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in;
-}
-div > p:hover{
-    color: red;
-    cursor: pointer;
-    transform: translateY(-5px);
+
+
+li{
+    display: inline-block;
+    margin-left: 30px;
 }

@@ -1,13 +1,13 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "description": "TailWind-Related-Scripts",
+  "description": "Tailwind-related-config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "none",
     "dev": "tailwindcss -i input.css -o ./src/css/tailwind.css --watch"
   },
-  "author": "asdasdsa",
+  "author": "biot",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.2"
