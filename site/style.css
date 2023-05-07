@@ -1,10 +1,13 @@
+body {
+  font-family: 'Lab Grotesque', sans-serif;
+  color: #333;
+}
 header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 999;
   }
   
@@ -40,7 +43,7 @@ header {
   
   .nav-links li a {
     color: #333;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
   }
   
@@ -59,10 +62,38 @@ header {
     border: 2px solid #04ddb2;
     border-radius: 5px;
     background-color: #04ddb2;
-    transition: background-color 0.3s ease;
   }
   
   .btn:hover {
     background-color: #555;
   }
-  
+
+  .heading-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 45px 0 0 0;
+
+  }
+  .heading-container h1 {
+    font-size:65px;
+    font-style: bold;
+  }
+
+  .colored-heading {
+    color:#04ddb2;
+  }
+
+  .sub-heading {
+    text-align: center;
+    font-size: 24px;
+    font-style: bold;
+  }
+
+  .second-heading-container {
+    text-align: center;
+    font-size: 30px;
+  }
+  .second-heading {
+    margin:-39px 0 0 0;
+  }
