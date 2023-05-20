@@ -5,42 +5,6 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(to right, #012345, 	#234567);
-}
-li, a, button{
-  color: white;
-  text-decoration: none;
-  font-size: 1.4rem;
-  list-style: none;
-  transition-duration: 0.3s;
-}
-img{
-  cursor: pointer;
-  height: 2.3rem;
-  margin-right: auto;
-}
-header{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 2.6rem 4.4%;
-  position: --webkit-sticky;
-  position: sticky;
-  
-}
-ul{
-  padding-top: 15px;
-}
-.nav-links li{
-  display: inline-block;
-  padding: 0 2.3rem;
-  color: white;
-}
 
-li:hover, a:hover{
-  transform: translateY(-5px);
-  cursor: pointer;
-  color: rgb(202, 193, 193);
-}
-
+  }
 
