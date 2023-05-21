@@ -19,10 +19,11 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
+  padding-top: 0.5rem;
 }
 
 .navbar {
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-left: 12rem;
   padding-right: 12rem;
   display: flex;
@@ -30,7 +31,7 @@ body {
   align-items: center;
 }
 .navbar #logo {
-  width: 15rem;
+  width: 18rem;
 }
 .navbar .nav-links {
   color: var(--text-color);
@@ -41,7 +42,7 @@ body {
   gap: 130px;
 }
 .navbar .nav-item {
-  padding-top: 3rem;
+  padding-top: 2.5rem;
   color: var(--text-color);
   font-size: 2.5rem;
   list-style: none;
@@ -49,24 +50,42 @@ body {
   font-weight: 600;
 }
 
-.splash-screen .heading h1 {
+.splash-screen .heading p {
   color: var(--text-color);
-  margin-top: 0;
   z-index: 999;
   font-size: 6rem;
 }
 
 .video {
+  position: relative;
   display: flex;
   justify-content: flex-end;
-  margin-top: 10rem;
-  margin-right: 5rem;
+  margin-top: 13rem;
+  margin-right: 7rem;
 }
 .video #video {
-  z-index: 1;
-  width: 65%;
-  height: 38vw;
+  z-index: 0;
+  width: 130rem;
+  height: 70rem;
   display: inline;
   -o-object-fit: cover;
      object-fit: cover;
+  filter: brightness(75%);
+}
+.video .head {
+  max-width: 45%;
+}
+.video .heading {
+  color: var(--text-color);
+  font-size: 11rem;
+  z-index: 999;
+  transform: translateX(30rem);
+  padding-top: 5rem;
+  position: absolute;
+  font-weight: 900;
+  transform: translateX(-29%);
+  max-width: inherit;
+  padding-top: 6rem;
+  line-height: 14.5rem;
+  opacity: 0.9;
 }/*# sourceMappingURL=main.css.map */
