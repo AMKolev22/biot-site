@@ -131,6 +131,13 @@ body {
         border: 0.1rem solid var(--text-color);
         mix-blend-mode: normal;
         padding: 2.2rem 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        #playbutton{
+            height: 2.2rem;
+        }
     }
 }
 
