@@ -5,6 +5,7 @@
 
 :root {
   --text-color: #EFEFFC;
+  --secondary-color: #BAFF39;
 }
 
 html {
@@ -74,18 +75,54 @@ body {
 }
 .video .head {
   max-width: 45%;
+  max-height: none;
+}
+.video .content {
+  display: flex;
+  max-width: 45%;
 }
 .video .heading {
+  max-width: 45%;
   color: var(--text-color);
   font-size: 11rem;
   z-index: 999;
   transform: translateX(30rem);
-  padding-top: 5rem;
   position: absolute;
   font-weight: 900;
-  transform: translateX(-29%);
+  transform: translateX(20%);
   max-width: inherit;
-  padding-top: 6rem;
+  max-height: none;
+  padding-top: 4rem;
   line-height: 14.5rem;
   opacity: 0.9;
+}
+.video #heading-underline {
+  position: absolute;
+  top: 64%;
+  right: 71%;
+  transform: scale(0.9);
+  z-index: 999;
+}
+.video a {
+  white-space: nowrap;
+  margin-left: 80%;
+  margin-top: 56rem;
+  padding-top: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  z-index: 99;
+}
+.video #leftBtn {
+  color: #000;
+  background-color: var(--secondary-color);
+  padding: 2.2rem 3.5rem;
+}
+.video #rightBtn {
+  margin-left: 4rem;
+  color: var(--text-color);
+  border: 0.1rem solid var(--text-color);
+  mix-blend-mode: normal;
+  padding: 2.2rem 3.5rem;
 }/*# sourceMappingURL=main.css.map */
