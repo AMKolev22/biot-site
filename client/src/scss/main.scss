@@ -53,6 +53,7 @@ body {
             z-index: 1;
             width: 130rem;
             height: 70rem;
+            
 
             display: inline;
             position: absolute;
@@ -76,6 +77,7 @@ body {
         position: relative;
         z-index: 3;
         font-weight: 800;
+        margin-right: 68rem;
         
         .btns{
             
@@ -85,6 +87,8 @@ body {
             margin-left: -2rem;
 
             font-size: 1.8rem;
+            font-family: 'Outfit';
+            font-weight: 600;
         }
 
         #leftBtn {
@@ -96,6 +100,7 @@ body {
 
             text-decoration: inherit;
             font-size: inherit;
+            font-weight: 700;
 
         }
        
@@ -134,6 +139,8 @@ body {
            
         }
     }
+
+
 
 }
 
