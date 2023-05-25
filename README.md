@@ -33,7 +33,6 @@
 ### Used code editor & collaborative service:
 
  
-
 <p align="left" gap="10px">
 <a href="https://code.visualstudio.com/"><img src="./repo/Visual_Studio_Code_1.35_icon.svg.png" alt="VS code logo" width=48px /></a>
 <a href="https://github.com/"><img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub logo" width=52px /></a>
@@ -45,7 +44,6 @@
 ### Used tools for our visual elements:
 
  
-
 <p align="left" gap="10px">
 <a href="https://www.figma.com"><img src="./repo/figma logo.png" alt="Figma logo" width=48px/></a>
 <a href="https://www.adobe.com/bg/products/illustrator.html"><img src="./repo/Adobe_Illustrator_CC_icon.png" alt="Adobe logo" width=48px/></a>
@@ -56,7 +54,6 @@
 ### Used tools for our frontend development:
 
  
-
 <p align="left" gap="10px">
 <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/344/javascript--v1.png" alt="javascript" width=48px /></a>
 <a href="https://vitejs.dev/"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bp9HIjTK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/77ripvyhwi6xl0gqkvj9.png" alt="vitejs" width=48px /></a>
@@ -69,7 +66,6 @@
 ### Used tools for our documentation, presentation & communication:
 
  
-
 <p align="left" gap="10px">
 <a href="https://jupyter.org/"><img src="https://img.icons8.com/fluency/344/jupyter.png" alt="jupyter notebook" width=48px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage"><img src="https://www.myce.com/wp-content/images_posts/2017/03/myce-onedrive-logo.png" alt="MS Word logo" width=48px /></a>
@@ -91,14 +87,14 @@
 
 ### QA Documentation
 
- 
 
 - [Test Plan](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Test%20plan.docx)
 - [QA Documentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20client%20QA%20Doc.xlsx)
 
  
 
-### Preseting and Team Documentation
+### Presenting and Team Documentation
+
 
 - [Team Documentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Documentation.docx)
 - [Presentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Presentation.pptx)
