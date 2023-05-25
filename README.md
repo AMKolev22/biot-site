@@ -1,9 +1,9 @@
-<h1 align="center">Team ATMOS</h1>
+<h1 align="center">Team BIOT</h1>
 
  
 
 <p align="center">
-<img src="/docs/assets/banners/banner.png"/>
+<img src="./client/src/assests/logo white.png"/>
 </p>
 
  
