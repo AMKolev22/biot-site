@@ -116,29 +116,6 @@
  
 
 <hr>
-
- 
-
-## 📥 Installation
-
- 
-
-You can view our Jupyter Notebook by visiting <a href="https://docs.atmos.systems">this</a> link! <br>
-<br>
-If you want to clone our repo locally you can paste the following command in your preferred terminal:
-
- 
-
-<pre>https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022</pre>
-<br>
-
- 
-
-<hr>
-
- 
-
-<br>
 <h3>🖥 Client</h3>
 Then, you can launch the web application by following these commands:
 <br>
