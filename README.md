@@ -48,7 +48,7 @@
 
 <p align="left">
 <a href="https://www.figma.com"><img src="./repo/figma logo.png" alt="Figma logo" width=48px/></a>
-<a href="https://www.adobe.com/bg/products/illustrator.html"><img src=./repo/Adobe_Illustrator_CC_icon.png" alt="Adobe logo" width=48px /></a>
+<a href="https://www.adobe.com/bg/products/illustrator.html"><img src=./repo/Adobe_Illustrator_CC_icon.png" alt="Adobe logo" width=48px/></a>
 <a href="https://www.adobe.com/bg/products/photoshop/"><img src="./repo/1200px-Adobe_Photoshop_Mobile_icon.png" alt="Photoshop logo" width=48px/></a>
 
  
