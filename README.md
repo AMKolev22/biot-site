@@ -55,11 +55,12 @@
 
  
 <p align="left" gap="10px">
-<a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/344/javascript--v1.png" alt="javascript" width=48px /></a>
-<a href="https://vitejs.dev/"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bp9HIjTK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/77ripvyhwi6xl0gqkvj9.png" alt="vitejs" width=48px /></a>
-<a href="https://reactjs.org/"><img src="https://img.icons8.com/plasticine/344/react.png" alt="react" width=48px /></a>
-<a href="https://tailwindcss.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="raylib" width=48px /></a>
+<a href="https://www.javascript.com/"><img src="./repo/JavaScript-logo.png" alt="javascript" width=48px /></a>
+<a href="#"><img src="./repo/html logo.png" alt="html" width=48px /></a>
 </p>
+<a href="#"><img src="./repo/icons8-css-32.png" width=48px /></a>
+<a href="#"><img src="./repo/sass-logo.png" width=48px /></a>
+
 
  
 
@@ -69,9 +70,9 @@
 <p align="left" gap="10px">
 <a href="https://jupyter.org/"><img src="https://img.icons8.com/fluency/344/jupyter.png" alt="jupyter notebook" width=48px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage"><img src="https://www.myce.com/wp-content/images_posts/2017/03/myce-onedrive-logo.png" alt="MS Word logo" width=48px /></a>
-<a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/color/344/ms-word.png" alt="MS Word logo" width=48px /></a>
-<a href="https://www.microsoft.com/en-ww/microsoft-365/excel"><img src="https://img.icons8.com/color/344/ms-excel.png" alt="MS Excel logo" width=48px /></a>
-<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="./repo/Microsoft-Word-Logo.png" alt="MS Word logo" width=48px /></a>
+
+<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="Power-Point-logo.png" alt="MS PowerPoint logo" width=48px /></a>
 <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt = "MS Teams logo" width=46px /></a>
 </p>
 
