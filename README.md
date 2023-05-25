@@ -287,10 +287,10 @@ You may want to style our documentation even more. To do this, just **paste thes
 
  
 
-- <a href = "https://github.com/AMKolev22"> Alexander Kolev (SCRUM Trainer) 
-- <a href = "https://github.com/HPRusev22"> Hristo Rusev (Frontend Developer)
-- <a href = "https://github.com/PDDineva22"> Polina Dineva (Frontend Developer)
-- <a href = "https://github.com/VTVaradeva22"> Veselina Varadeva (Designer)
+- <a href = "https://github.com/AMKolev22"> Alexander Kolev </a> (SCRUM Trainer) 
+- <a href = "https://github.com/HPRusev22"> Hristo Rusev </a> (Frontend Developer)
+- <a href = "https://github.com/PDDineva22"> Polina Dineva </a> (Frontend Developer)
+- <a href = "https://github.com/VTVaradeva22"> Veselina Varadeva </a> (Designer)
 
 
  
