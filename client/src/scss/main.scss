@@ -17,7 +17,7 @@ body {
 
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
@@ -25,6 +25,7 @@ body {
 
     width: 100vw;
     height: 100vh;
+    overflow: inherit;
     background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
     padding-top: 0.5rem;
 
