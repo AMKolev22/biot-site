@@ -3,7 +3,7 @@
  
 
 <p align="center">
-<img src="./client/src/assests/logo white.png"/>
+<img src="./client/src/assests/logo black.png"/>
 </p>
 
  
