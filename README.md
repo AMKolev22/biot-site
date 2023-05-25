@@ -22,8 +22,7 @@
 
  
 
-<p align="center">This repository contains our submission for the final 2021-2022 project - "The Games - Adventure"!</p>
-<p align="center">You can find out more about our modern web app & our Unity game!</p>
+<p align="center">This repository contains our submission for the final 2022-2023 project - " "!</p>
 
  
 
@@ -288,14 +287,11 @@ You may want to style our documentation even more. To do this, just **paste thes
 
  
 
-- <a href = "https://github.com/NDPeshev19"> Nikola Peshev </a> (Scrum trainer)
-- <a href = "https://github.com/BNSavov19"> Boris Savov </a> (Scrum Trainer/Backend Developer)
-- <a href = "https://github.com/VTIvanov20"> Valeri Ivanov </a> (Designer)
-- <a href = "https://github.com/MMMarinov20"> Maxim Marinov </a> (Frontend Developer)
-- <a href = "https://github.com/SHHristov20"> Stefan Hristov </a> (Backend Developer)
-- <a href = "https://github.com/DKByandov21"> Dimitar Byandov </a> (Designer)
-- <a href = "https://github.com/MVKoleva21"> Mariya Koleva </a> (QA Engineer)
-- <a href = "https://github.com/VDVichev21"> Vicho Vichev </a> (QA Engineer)
+- <a href = "https://github.com/AMKolev22"> Alexander Kolev (SCRUM Trainer) 
+- <a href = "https://github.com/HPRusev22"> Hristo Rusev (Frontend Developer)
+- <a href = "https://github.com/PDDineva22"> Polina Dineva (Frontend Developer)
+- <a href = "https://github.com/VTVaradeva22"> Veselina Varadeva (Designer)
+
 
  
 
