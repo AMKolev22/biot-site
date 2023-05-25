@@ -100,9 +100,7 @@
 
 ### Code & Team Documentation
 
- 
 
-- [Jupyter Notebook](https://docs.atmos.systems)
 - [Team Documentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Documentation.docx)
 
  
@@ -116,120 +114,6 @@
  
 
 <hr>
-<h3>🖥 Client</h3>
-Then, you can launch the web application by following these commands:
-<br>
-
- 
-
-<b>1.</b> Navigate to our client folder using:
-<pre>cd client</pre>
-<b>2.</b> Install the node modules using:
-<pre>npm install</pre>
-<b>3.</b> Run the development server using:
-<pre>npm run dev</pre>
-
- 
-
-<br>
-
- 
-
-<h3>🌎 Server</h3>
-You will need another terminal to launch the server, paste the following commands:
-
- 
-
-<b>1.</b> Navigate to our server folder using:
-<pre>cd server</pre>
-<b>2.</b> Install the node modules using:
-<pre>npm install</pre>
-<b>3.</b> Create .env file for the DB by using the following example
-<pre>
-DB_HOST = &ltDATABASE IP&gt
-DB_NAME = &ltDATABASE NAME&gt
-DB_USERNAME = &ltDATABASE USERNAME&gt
-DB_PASSWORD = &ltDATABASE PASSWORD&gt
-EMAIL_HOST = &ltEMAIL IP&gt
-EMAIL_USERNAME = &ltEMAIL&gt
-EMAIL_PASSWORD = &ltEMAIL PASSWORD&gt
-</pre>
-<b>4.</b> Run the development server using:
-<pre>npm run dev</pre>
-</pre>
-
- 
-
-<br>
-
- 
-
-<hr>
-
- 
-
-<br>
-
- 
-
-### 📓 Jupyter Notebook
-If you want to run our Jupyter Notebook documentation locally, you will need Python 3.9+ installed on your machine, then you can run the following commands:
-<br><br>
-<b>1.</b> Upgrade pip for later usage:
-<pre>pip3 install --upgrade pip</pre>
-<b>2.</b> Install Jupyter Notebook via Python:
-<pre>pip3 install jupyter</pre>
-<b>3.</b> Install the NodeJS kernel:
-<pre>npm install -g ijavascript</pre>
-<b>4.</b> Run the kernel:
-<pre>ijsinstall</pre>
-<b>5.</b> Navigate to the notebook folder using:
-<pre>cd notebook</pre>
-<b>6.</b> Run the notebook using the following command:
-<pre>jupyter notebook</pre>
-<br>
-
- 
-
-### ✔ OPTIONAL:
-You may want to style our documentation even more. To do this, just **paste these two commands after step №4**:<br>
-<b>4.1</b> Go to the `notebook` folder, in case you weren't there already and install the *Jupyter Notebook* theme packages:
-<pre>python -m pip install jupytertheme</pre>
-<b>4.2</b> Upgrade the theme packages:
-<pre>python -m pip install --upgrade jupytertheme</pre>
-<b>4.3</b> Use the list command in the newly installed theme package:
-<pre>jt -l</pre>
-<b>4.4</b> Pick out a theme and apply it by pasting this line:
-<pre>jt -t *your theme of choice*</pre>
-<br>
-<b>4.5.</b> If you have followed this optional guide, you can just resume with option №5 and option №6.
-<br><br>
-
- 
-
-<hr>
-
- 
-
-<br>
-
- 
-
-### 📑 Notes:
-<b>NOTE:</b> You can apply a different theme just by running the command above again with a different theme.
-<br><br>
-<b>NOTE:</b> You can remove your theme by running: <pre>jt -r</pre>
-<br>
-<b>NOTE:</b> Any additional changes to the styling can be made locally by referencing <a href="https://github.com/dunovank/jupyter-themes#description-of-command-line-options">the official jupyter themes documentation</a>!
-<br><br>
-
- 
-
-<hr>
-
- 
-
-<br>
 
  
 
