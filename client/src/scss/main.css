@@ -31,6 +31,34 @@ body {
   font-size: 6rem;
 }
 
+.navbar {
+  padding-top: 3rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar #logo {
+  width: 15rem;
+}
+.navbar .nav-links {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 13rem;
+}
+.navbar .nav-item {
+  display: inline-block;
+  padding-top: 2.5rem;
+  color: var(--text-color);
+  font-size: 2.3rem;
+  list-style: none;
+  font-weight: 600;
+}
+
 .video {
   margin-top: 13rem;
   margin-left: 5rem;
@@ -97,32 +125,4 @@ body {
   transform: translateY(-50%);
   left: 0;
   transform: scale(0.9);
-}
-
-.navbar {
-  padding-top: 3rem;
-  padding-left: 12rem;
-  padding-right: 12rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.navbar #logo {
-  width: 15rem;
-}
-.navbar .nav-links {
-  color: var(--text-color);
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  padding: 0px;
-  gap: 13rem;
-}
-.navbar .nav-item {
-  display: inline-block;
-  padding-top: 2.5rem;
-  color: var(--text-color);
-  font-size: 2.3rem;
-  list-style: none;
-  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
