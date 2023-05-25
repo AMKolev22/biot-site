@@ -139,7 +139,7 @@ body {
   margin-top:225px;
   font-size: 60px;
   flex-direction: column;
-  margin-top:450px;
+  margin-top:250px;
 }
 
 .our-robots {
@@ -160,19 +160,60 @@ body {
 .ibm-logo{
   width: 230px;
   height: auto;
-  margin-top: 65px;
+  margin-top: 75px;
   margin-left: 450px;
 }
 
 .google-logo{
   width: 250px;
   height: auto;
-  margin-top: 65px;
+  margin-top: 75px;
   margin-left: 280px;
 }
 .amazon-logo{
   width: 250px;
   height: auto;
-  margin-top: 65px;
+  margin-top: 75px;
   margin-left: 240px;
+}
+.eco-friendly-img{
+  margin-top: 250px;
+  margin-left: 260px;
+  width: 600px;
+  height:350px;
+}
+
+.eco-heading{
+  margin-left: 260px;
+  margin-top: 35px;
+  font-size:35px ;
+  color:var(--secondary-color);
+}
+
+.eco-text{
+  color:var(--text-color);
+  margin-top: 45px;
+  margin-left: 260px;
+  font-size: 28px;
+}
+
+.longer-batteries-img{
+  width: 600px;
+  height:350px;
+  margin-left:1360px;
+  margin-top: -350px;
+}
+
+.longer-batteries-heading{
+  color:var(--secondary-color);
+  margin-left: 1360px;
+  font-size: 35px;
+  margin-top: 35px;
+}
+
+.batteries-text{
+  color: var(--text-color);
+  margin-left: 1360px;
+  font-size: 30px;
+  margin-top: 45px;
 }
