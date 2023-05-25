@@ -15,13 +15,11 @@ html {
 body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 .splash-screen {
   width: 100vw;
-  height: 100vh;
-  overflow: inherit;
+  height: 100%;
   background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
   padding-top: 0.5rem;
 }
@@ -126,3 +124,55 @@ body {
   left: 0;
   transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
+.future{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-align: center;
+}
+
+.section-heading{
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:225px;
+  font-size: 60px;
+  flex-direction: column;
+  margin-top:450px;
+}
+
+.our-robots {
+  color:var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color:var(--text-color);
+  margin-top: 20px;
+}
+.partners{
+  font-size: 55px;
+  color:var(--text-color);
+  margin-top:150px;
+}
+.ibm-logo{
+  width: 230px;
+  height: auto;
+  margin-top: 65px;
+  margin-left: 450px;
+}
+
+.google-logo{
+  width: 250px;
+  height: auto;
+  margin-top: 65px;
+  margin-left: 280px;
+}
+.amazon-logo{
+  width: 250px;
+  height: auto;
+  margin-top: 65px;
+  margin-left: 240px;
+}
