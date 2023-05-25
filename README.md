@@ -70,7 +70,7 @@
 
  
 
-<p align="left">
+<p align="left" gap="10px">
 <a href="https://jupyter.org/"><img src="https://img.icons8.com/fluency/344/jupyter.png" alt="jupyter notebook" width=48px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage"><img src="https://www.myce.com/wp-content/images_posts/2017/03/myce-onedrive-logo.png" alt="MS Word logo" width=48px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/color/344/ms-word.png" alt="MS Word logo" width=48px /></a>
@@ -98,21 +98,12 @@
 
  
 
-### Code & Team Documentation
-
+### Preseting and Team Documentation
 
 - [Team Documentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Documentation.docx)
-
- 
-
-### Presenting
-
- 
-
 - [Presentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Presentation.pptx)
-
  
-
+    
 <hr>
 
  
