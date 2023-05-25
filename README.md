@@ -35,7 +35,7 @@
  
 
 <p align="left">
-<a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/344/visual-studio-code-2019.png" alt="VS code logo" width=48px /></a>
+<a href="https://code.visualstudio.com/"><img src="./repo/Visual_Studio_Code_1.35_icon.svg.png" alt="VS code logo" width=48px /></a>
 <a href="https://github.com/"><img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub logo" width=52px /></a>
 <a href="https://git-scm.com/"><img src="https://img.icons8.com/nolan/344/git.png" alt="git logo" width=52px /></a>
 </p>
@@ -47,10 +47,9 @@
  
 
 <p align="left">
-<a href="https://www.figma.com/"><img src="https://img.icons8.com/color/344/figma--v1.png" alt="Figma logo" width=48px/></a>
-<a href="https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap"><img src="https://adpyke.gallerycdn.vsassets.io/extensions/adpyke/codesnap/1.3.4/1625238962906/Microsoft.VisualStudio.Services.Icons.Default" alt="adobe creative cloud" width=48px /></a>
-<a href="https://www.adobe.com/creativecloud.html"><img src="https://www.adobe.com/content/dam/shared/images/product-icons/svg/creative-cloud.svg" alt="adobe creative cloud" width=48px /></a>
-</p>
+<a href="https://www.figma.com"><img src="./repo/figma logo.png" alt="Figma logo" width=48px/></a>
+<a href="https://www.adobe.com/bg/products/illustrator.html"><img src=./repo/Adobe_Illustrator_CC_icon.png" alt="Adobe logo" width=48px /></a>
+<a href="https://www.adobe.com/bg/products/photoshop/"><img src="./repo/1200px-Adobe_Photoshop_Mobile_icon.png" alt="Photoshop logo" width=48px/></a>
 
  
 
@@ -63,32 +62,6 @@
 <a href="https://vitejs.dev/"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bp9HIjTK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/77ripvyhwi6xl0gqkvj9.png" alt="vitejs" width=48px /></a>
 <a href="https://reactjs.org/"><img src="https://img.icons8.com/plasticine/344/react.png" alt="react" width=48px /></a>
 <a href="https://tailwindcss.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="raylib" width=48px /></a>
-</p>
-
- 
-
-### Used technologies for our backend development:
-
- 
-
-<p align="left">
-<a href="https://www.python.org/"><img src="https://img.icons8.com/color/344/python--v1.png" alt="python" width=48px /></a>
-<a href="https://nodejs.org/en/"><img src="https://s3.amazonaws.com/clarityfm-production/attachments/32059/default/nodejs-512.png?1573156678" alt="nodejs" width=58px /></a>
-<a href="https://nodemailer.com/about/"><img src="https://i1.wp.com/community.nodemailer.com/wp-content/uploads/2015/10/n2-2.png?fit=422%2C360&ssl=1" alt="node mailer" width=58px /></a>
-<a href="https://www.mysql.com/"><img src="https://img.icons8.com/fluency/344/mysql-logo.png" alt="mysql" width=58px /></a>
-<a href="https://expressjs.com/"><img src="https://images.tute.io/tute/topic/express-js.png" alt="expressjs" width=48px /></a>
-<a href="https://www.postman.com/"><img src="https://res.cloudinary.com/postman/image/upload/t_team_logo/v1629869194/team/2893aede23f01bfcbd2319326bc96a6ed0524eba759745ed6d73405a3a8b67a8" alt="postman" width=48px /></a>
-</p>
-
- 
-
-### Used tools for our game development:
-
- 
-
-<p align="left">
-<a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="https://miro.medium.com/max/375/1*NhpIIUL7AFgKKn30gKoDUw.png" alt="csharp" width=48px /></a>
-<a href="https://unity.com/"><img src="https://gpuopen.com/wp-content/uploads/2021/10/U_Logo_White_RGB.png" alt="unity" width=128px /></a>
 </p>
 
  
