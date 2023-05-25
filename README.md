@@ -22,7 +22,7 @@
 
  
 
-<p align="center">This repository contains our submission for the final 2022-2023 project - " "!</p>
+<p align="center">This repository contains our submission for the final 2022-2023 project - "Code Sprint - Robotics"!</p>
 
  
 
@@ -34,7 +34,7 @@
 
  
 
-<p align="left">
+<p align="left" gap="10px">
 <a href="https://code.visualstudio.com/"><img src="./repo/Visual_Studio_Code_1.35_icon.svg.png" alt="VS code logo" width=48px /></a>
 <a href="https://github.com/"><img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub logo" width=52px /></a>
 <a href="https://git-scm.com/"><img src="https://img.icons8.com/nolan/344/git.png" alt="git logo" width=52px /></a>
@@ -46,7 +46,7 @@
 
  
 
-<p align="left">
+<p align="left" gap="10px">
 <a href="https://www.figma.com"><img src="./repo/figma logo.png" alt="Figma logo" width=48px/></a>
 <a href="https://www.adobe.com/bg/products/illustrator.html"><img src="./repo/Adobe_Illustrator_CC_icon.png" alt="Adobe logo" width=48px/></a>
 <a href="https://www.adobe.com/bg/products/photoshop/"><img src="./repo/1200px-Adobe_Photoshop_Mobile_icon.png" alt="Photoshop logo" width=48px/></a>
@@ -57,7 +57,7 @@
 
  
 
-<p align="left">
+<p align="left" gap="10px">
 <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/344/javascript--v1.png" alt="javascript" width=48px /></a>
 <a href="https://vitejs.dev/"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--bp9HIjTK--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/77ripvyhwi6xl0gqkvj9.png" alt="vitejs" width=48px /></a>
 <a href="https://reactjs.org/"><img src="https://img.icons8.com/plasticine/344/react.png" alt="react" width=48px /></a>
