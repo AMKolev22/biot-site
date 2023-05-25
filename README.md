@@ -70,7 +70,7 @@
 <p align="left" gap="10px">
 <a href="https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage"><img src="https://www.myce.com/wp-content/images_posts/2017/03/myce-onedrive-logo.png" alt="MS Word logo" width=48px /></a>
 <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="./repo/Microsoft-Word-Logo.png" alt="MS Word logo" width=48px /></a>
-<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="../repo/Power-Point-logo.png" alt="MS PowerPoint logo" width=48px /></a>
+<a href="https://www.microsoft.com/en-ww/microsoft-365/powerpoint"><img src="https://img.icons8.com/color/344/ms-powerpoint.png" alt="MS PowerPoint logo" width=48px /></a>
 <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt = "MS Teams logo" width=46px /></a>
 </p>
 
