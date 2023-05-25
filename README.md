@@ -26,7 +26,7 @@
 
  
 
-## 🗂️ Our Tech Stack
+## 🗂️ Used Technologies
 
  
 
@@ -51,7 +51,7 @@
 
  
 
-### Used tools for our frontend development:
+### Used tools for our site development:
 
  
 <p align="left" gap="10px">
