@@ -137,8 +137,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:225px;
-  font-size: 60px;
+  margin-top:180px;
+  font-size: 55px;
   flex-direction: column;
   margin-top:250px;
 }
@@ -153,106 +153,107 @@ body {
   color:var(--text-color);
   margin-top: 20px;
 }
+
 .partners{
-  font-size: 55px;
+  font-size: 45px;
   color:var(--text-color);
   margin-top:150px;
 }
 .ibm-logo{
-  width: 230px;
+  width: 210px;
   height: auto;
   margin-top: 75px;
-  margin-left: 450px;
+  margin-left: 250px;
 }
 
 .google-logo{
-  width: 250px;
+  width: 210px;
   height: auto;
   margin-top: 75px;
-  margin-left: 280px;
+  margin-left: 250px;
 }
 .amazon-logo{
-  width: 250px;
+  width: 210px;
   height: auto;
   margin-top: 75px;
-  margin-left: 240px;
+  margin-left: 250px;
 }
 .eco-friendly-img{
-  margin-top: 190px;
-  margin-left: 210px;
-  width: 700px;
-  height: 400px;
+  margin-top: 180px;
+  margin-left: 200px;
+  width: 500px;
+  height: 300px;
 }
 
 .eco-heading{
-  margin-left: 210px;
+  margin-left: 200px;
   margin-top: 35px;
-  font-size:35px ;
+  font-size:28px ;
   color:var(--secondary-color);
 }
 
 .eco-text{
   color:var(--text-color);
   margin-top: 45px;
-  margin-left: 210px;
-  font-size: 30px;
+  margin-left: 200px;
+  font-size: 24px;
 }
 
 .longer-batteries-img{
-  width: 700px;
-  height:400px;
-  margin-left:1310px;
-  margin-top: -350px;
+  width: 500px;
+  height:300px;
+  margin-left:950px;
+  margin-top: -450px;
 }
 
 .longer-batteries-heading{
   color:var(--secondary-color);
-  margin-left: 1310px;
-  font-size: 35px;
+  margin-left: 950px;
+  font-size: 28px;
   margin-top: 35px;
 }
 
 .batteries-text{
   color: var(--text-color);
-  margin-left: 1310px;
-  font-size: 30px;
-  margin-top: 45px;
+  margin-left: 950px;
+  font-size: 25px;
+  margin-top: 35px;
 }
 .robots-advantages-img{
-  margin-top: 25px;
-  margin-left: 210px;
-  width: 700px;
-  height: 400px;
+  margin-top: 35px;
+  margin-left: 200px;
+  width: 500px;
+  height: 300px;
 }
 .advantages-heading{
   color: var(--secondary-color);
-  margin-left: 210px;
+  margin-left: 200px;
   margin-top: 35px;
-  font-size: 35px;
+  font-size: 28px;
 }
 .advantages-text{
   color: var(--text-color);
-  margin-top: 45px;
-  margin-left: 210px;
-  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 200px;
+  font-size: 25px;
 }
 .second-advantages-img{
-  width: 700px;
-  height: 400px;
-  margin-top: -350px;
-  margin-left: 1310px;
+  width: 500px;
+  height: 300px;
+  margin-top: -450px;
+  margin-left: 950px;
 }
 .second-advantages-heading{
   color: var(--secondary-color);
-  font-size: 35px;
+  font-size: 28px;
   margin-top: 35px;
-  margin-left: 1310px;
+  margin-left: 950px;
 }
 .second-advantages-text{
   color: var(--text-color);
-  margin-top: 45px;
-  margin-left: 1310px;
-  font-size: 30px;
+  margin-top: 35px;
+  margin-left: 950px;
+  font-size: 25px;
 }
 
 .more-information {
@@ -265,8 +266,8 @@ body {
 .more-information .company-ceos {
   text-align: center;
   color: var(--text-color);
-  font-size: 70px;
-  margin-top:240px ;
+  font-size: 55px;
+  margin-top:180px ;
 }
 
 .important{
@@ -274,8 +275,8 @@ body {
 }
 .background{
   background-color: grey;
-  width: 900px;
-  height: 500px;
+  width: 800px;
+  height: 400px;
   margin-top: 150px;
 }
 
@@ -287,16 +288,16 @@ body {
 
 .circle img {
   display: flex;
-  width: 190px;
-  height: 190px;
-  margin-top: -580px;
-  margin-left: 345px;
+  width: 150px;
+  height: 150px;
+  margin-top: -480px;
+  margin-left: 320px;
   border-radius: 100%; 
 }
 .ceos-text{
   color: white;
-  font-size: 27px;
-  padding-top: 160px;
+  font-size: 23px;
+  padding-top: 120px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
@@ -304,13 +305,16 @@ body {
 
 .green-line{
   width: 100%;
-  height: 10px;
+  height: 8px;
   background-color: var(--secondary-color);
 }
 .bill-gates-ceo{
-  font-size: 25px;
+  font-size: 20px;
   color: white;
-  padding-left: 680px;
-  margin-top: 50px;
+  padding-left: 630px;
+  margin-top: 40px;
+}
+.the-tasks{
+  color: var(--secondary-color);
 }
 
