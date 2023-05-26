@@ -307,7 +307,8 @@ body {
   background-color: var(--secondary-color);
 }
 .bill-gates-ceo{
+  font-size: 25px;
   color: white;
-  padding-left: 150px;
-  padding-top: 150px;
+  padding-left: 680px;
+  margin-top: 50px;
 }
