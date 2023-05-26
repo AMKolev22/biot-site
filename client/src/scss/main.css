@@ -15,6 +15,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+
 }
 
 .splash-screen {
@@ -177,14 +178,14 @@ body {
   margin-left: 240px;
 }
 .eco-friendly-img{
-  margin-top: 250px;
-  margin-left: 260px;
-  width: 600px;
-  height:350px;
+  margin-top: 190px;
+  margin-left: 210px;
+  width: 700px;
+  height: 400px;
 }
 
 .eco-heading{
-  margin-left: 260px;
+  margin-left: 210px;
   margin-top: 35px;
   font-size:35px ;
   color:var(--secondary-color);
@@ -193,64 +194,64 @@ body {
 .eco-text{
   color:var(--text-color);
   margin-top: 45px;
-  margin-left: 260px;
-  font-size: 28px;
+  margin-left: 210px;
+  font-size: 30px;
 }
 
 .longer-batteries-img{
-  width: 600px;
-  height:350px;
-  margin-left:1360px;
+  width: 700px;
+  height:400px;
+  margin-left:1310px;
   margin-top: -350px;
 }
 
 .longer-batteries-heading{
   color:var(--secondary-color);
-  margin-left: 1360px;
+  margin-left: 1310px;
   font-size: 35px;
   margin-top: 35px;
 }
 
 .batteries-text{
   color: var(--text-color);
-  margin-left: 1360px;
+  margin-left: 1310px;
   font-size: 30px;
   margin-top: 45px;
 }
 .robots-advantages-img{
-  margin-top: 95px;
-  margin-left: 260px;
-  width: 600px;
-  height: 350px;
+  margin-top: 25px;
+  margin-left: 210px;
+  width: 700px;
+  height: 400px;
 }
 .advantages-heading{
   color: var(--secondary-color);
-  margin-left: 260px;
+  margin-left: 210px;
   margin-top: 35px;
   font-size: 35px;
 }
 .advantages-text{
   color: var(--text-color);
   margin-top: 45px;
-  margin-left: 260px;
+  margin-left: 210px;
   font-size: 30px;
 }
 .second-advantages-img{
-  width: 600px;
-  height: 350px;
+  width: 700px;
+  height: 400px;
   margin-top: -350px;
-  margin-left: 1360px;
+  margin-left: 1310px;
 }
 .second-advantages-heading{
   color: var(--secondary-color);
   font-size: 35px;
   margin-top: 35px;
-  margin-left: 1360px;
+  margin-left: 1310px;
 }
 .second-advantages-text{
   color: var(--text-color);
   margin-top: 45px;
-  margin-left: 1360px;
+  margin-left: 1310px;
   font-size: 30px;
 }
 
@@ -312,3 +313,4 @@ body {
   padding-left: 680px;
   margin-top: 50px;
 }
+
