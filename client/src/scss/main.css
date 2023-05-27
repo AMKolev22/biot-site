@@ -15,12 +15,12 @@ html {
 body {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
-
 }
 
 .splash-screen {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
+  overflow: inherit;
   background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
   padding-top: 0.5rem;
 }
@@ -124,177 +124,168 @@ body {
   transform: translateY(-50%);
   left: 0;
   transform: scale(0.9);
-}/*# sourceMappingURL=main.css.map */
-.future{
+}
+
+.main-page {
+  background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
+  margin-top: 5rem;
+  padding-top: 15rem;
+}
+.main-page .future {
   display: flex;
   flex-direction: column;
   justify-content: center;
-    text-align: center;
+  text-align: center;
 }
-
-.section-heading{
-  color: var(--text-color);
+.main-page .section-heading {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top:180px;
-  font-size: 55px;
+  margin-top: 22rem;
   flex-direction: column;
-  margin-top:250px;
+  color: var(--text-color);
+  font-size: 55px;
 }
-
-.our-robots {
-  color:var(--text-color);
+.main-page .our-robots {
+  color: var(--text-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   font-size: 30px;
-  color:var(--text-color);
+  color: var(--text-color);
   margin-top: 20px;
 }
-
-.partners{
+.main-page .partners {
   font-size: 45px;
-  color:var(--text-color);
-  margin-top:150px;
+  color: var(--text-color);
+  margin-top: 32rem;
 }
-.ibm-logo{
+.main-page .ibm-logo {
   width: 210px;
   height: auto;
   margin-top: 75px;
   margin-left: 250px;
 }
-
-.google-logo{
+.main-page .google-logo {
   width: 210px;
   height: auto;
   margin-top: 75px;
   margin-left: 250px;
 }
-.amazon-logo{
+.main-page .amazon-logo {
   width: 210px;
   height: auto;
   margin-top: 75px;
   margin-left: 250px;
 }
-.eco-friendly-img{
+.main-page .eco-friendly-img {
   margin-top: 180px;
   margin-left: 200px;
   width: 500px;
   height: 300px;
 }
-
-.eco-heading{
+.main-page .eco-heading {
   margin-left: 200px;
   margin-top: 35px;
-  font-size:28px ;
-  color:var(--secondary-color);
+  font-size: 28px;
+  color: var(--secondary-color);
 }
-
-.eco-text{
-  color:var(--text-color);
+.main-page .eco-text {
+  color: var(--text-color);
   margin-top: 45px;
   margin-left: 200px;
   font-size: 24px;
 }
-
-.longer-batteries-img{
+.main-page .longer-batteries-img {
   width: 500px;
-  height:300px;
-  margin-left:950px;
+  height: 300px;
+  margin-left: 950px;
   margin-top: -450px;
 }
-
-.longer-batteries-heading{
-  color:var(--secondary-color);
+.main-page .longer-batteries-heading {
+  color: var(--secondary-color);
   margin-left: 950px;
   font-size: 28px;
   margin-top: 35px;
 }
-
-.batteries-text{
+.main-page .batteries-text {
   color: var(--text-color);
   margin-left: 950px;
   font-size: 25px;
   margin-top: 35px;
 }
-.robots-advantages-img{
+.main-page .robots-advantages-img {
   margin-top: 35px;
   margin-left: 200px;
   width: 500px;
   height: 300px;
 }
-.advantages-heading{
+.main-page .advantages-heading {
   color: var(--secondary-color);
   margin-left: 200px;
   margin-top: 35px;
   font-size: 28px;
 }
-.advantages-text{
+.main-page .advantages-text {
   color: var(--text-color);
   margin-top: 35px;
   margin-left: 200px;
   font-size: 25px;
 }
-.second-advantages-img{
+.main-page .second-advantages-img {
   width: 500px;
   height: 300px;
   margin-top: -450px;
   margin-left: 950px;
 }
-.second-advantages-heading{
+.main-page .second-advantages-heading {
   color: var(--secondary-color);
   font-size: 28px;
   margin-top: 35px;
   margin-left: 950px;
 }
-.second-advantages-text{
+.main-page .second-advantages-text {
   color: var(--text-color);
   margin-top: 35px;
   margin-left: 950px;
   font-size: 25px;
 }
-
-.more-information {
+.main-page .more-information {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-.more-information .company-ceos {
+.main-page .more-information .company-ceos {
   text-align: center;
   color: var(--text-color);
   font-size: 55px;
-  margin-top:180px ;
+  margin-top: 180px;
 }
-
-.important{
-  color:var(--secondary-color);
+.main-page .important {
+  color: var(--secondary-color);
 }
-.background{
+.main-page .background {
   background-color: grey;
   width: 800px;
   height: 400px;
   margin-top: 150px;
 }
-
-.circle {
-  width: 200px; 
-  height: 200px;  
-  margin-bottom:550px;
+.main-page .circle {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 550px;
 }
-
-.circle img {
+.main-page .circle img {
   display: flex;
   width: 150px;
   height: 150px;
   margin-top: -480px;
   margin-left: 320px;
-  border-radius: 100%; 
+  border-radius: 100%;
 }
-.ceos-text{
+.main-page .ceos-text {
   color: white;
   font-size: 23px;
   padding-top: 120px;
@@ -302,19 +293,17 @@ body {
   padding-right: 20px;
   text-align: center;
 }
-
-.green-line{
+.main-page .green-line {
   width: 100%;
   height: 8px;
   background-color: var(--secondary-color);
 }
-.bill-gates-ceo{
+.main-page .bill-gates-ceo {
   font-size: 20px;
   color: white;
   padding-left: 630px;
   margin-top: 40px;
 }
-.the-tasks{
+.main-page .the-tasks {
   color: var(--secondary-color);
-}
-
+}/*# sourceMappingURL=main.css.map */
