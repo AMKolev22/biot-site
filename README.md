@@ -22,7 +22,7 @@
 
  
 
-<p align="center">This repository contains our submission for the final 2022-2023 project - "Code Sprint - Robotics"!</p>
+<p align="center">This repository contains our submission for the final 2023 project - "Code Sprint - Robotics"!</p>
 
  
 
@@ -107,7 +107,7 @@
 
  
 
-- <a href = "https://github.com/AMKolev22"> Alexander Kolev </a> (SCRUM Trainer) 
+- <a href = "https://github.com/AMKolev22"> Aleksander Kolev </a> (SCRUM Trainer) 
 - <a href = "https://github.com/HPRusev22"> Hristo Rusev </a> (Frontend Developer)
 - <a href = "https://github.com/PDDineva22"> Polina Dineva </a> (Frontend Developer)
 - <a href = "https://github.com/VTVaradeva22"> Veselina Varadeva </a> (Designer)
