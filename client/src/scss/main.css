@@ -60,6 +60,15 @@ body {
   font-size: 2.3rem;
   list-style: none;
   font-weight: 600;
+  transition: 0.3s;
+}
+.navbar .nav-item .nav-tag {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.nav-item:is(:hover) {
+  transform: translateY(-0.5rem);
 }
 
 .video {
@@ -101,6 +110,7 @@ body {
   font-size: 1.8rem;
   font-family: "Outfit";
   font-weight: 600;
+  transition: 0.3s;
 }
 .video .content #leftBtn {
   color: #000;
@@ -130,6 +140,10 @@ body {
   transform: translateY(-50%);
   left: 0;
   transform: scale(0.9);
+}
+
+.btns:hover {
+  transform: translateY(-0.4rem);
 }
 
 @keyframes loading {
@@ -175,24 +189,6 @@ body {
   opacity: 1;
   margin-top: 31rem;
   margin-bottom: 3rem;
-}
-.main-page .ibm-logo {
-  width: 210px;
-  height: auto;
-  margin-top: 75px;
-  margin-left: 250px;
-}
-.main-page .google-logo {
-  width: 210px;
-  height: auto;
-  margin-top: 75px;
-  margin-left: 250px;
-}
-.main-page .amazon-logo {
-  width: 210px;
-  height: auto;
-  margin-top: 75px;
-  margin-left: 250px;
 }
 .main-page .benefits {
   background: linear-gradient(180deg, #080309 0%, #0D0D2B 100%);
@@ -285,14 +281,14 @@ body {
   align-items: center;
   width: 99.2vw;
   height: 100vh;
-  padding-top: 23rem;
+  padding-top: 16.3rem;
   background: linear-gradient(0.15deg, #080309 0.13%, #0D0D2B 94.47%);
   text-align: center;
   color: var(--text-color);
 }
 .main-page .review .heading-review {
   font-size: 5.7rem;
-  margin-bottom: 27rem;
+  margin-bottom: 20rem;
 }
 .main-page .review .heading-review .important {
   color: var(--secondary-color);
