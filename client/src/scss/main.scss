@@ -7,7 +7,6 @@
     --text-color: #EFEFFC;
     --secondary-color: #BAFF39;
     
-
   }
 
 
@@ -45,6 +44,7 @@ body {
     }
 
     .splash-content {
+
         background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
         height: 93vh;
     }
@@ -90,7 +90,23 @@ body {
         font-size: 2.3rem;
         list-style: none;
         font-weight: 600;
+
+        transition: 0.3s;
+
+
+        .nav-tag {
+
+          color: var(--text-color);
+          text-decoration: none;
+
+        }
     }
+}
+
+.nav-item:is(:hover) {
+
+  transform: translateY(-0.5rem);
+
 }
 
 .video {
@@ -146,6 +162,8 @@ body {
             font-size: 1.8rem;
             font-family: 'Outfit';
             font-weight: 600;
+
+            transition: 0.3s;
         }
 
         #leftBtn {
@@ -196,6 +214,13 @@ body {
            
         }
     }
+}
+
+
+.btns:hover{
+
+  transform: translateY(-0.4rem);
+
 }
 
 @keyframes loading{  
@@ -267,30 +292,6 @@ body {
         }
     }
     
-
-
-    .ibm-logo {
-        width: 210px;
-        height: auto;
-        margin-top: 75px;
-        margin-left: 250px;
-    }
-    
-    .google-logo {
-
-        width: 210px;
-        height: auto;
-        margin-top: 75px;
-        margin-left: 250px;
-    }
-    .amazon-logo {
-
-        width: 210px;
-        height: auto;
-        margin-top: 75px;
-        margin-left: 250px;
-  }
-
 
   .benefits { 
     
@@ -449,7 +450,7 @@ body {
 
   width: 99.2vw;
   height: 100vh;
-  padding-top: 23rem;
+  padding-top: 16.3rem;
 
   background: linear-gradient(0.15deg, #080309 0.13%, #0D0D2B 94.47%);
 
@@ -459,7 +460,7 @@ body {
   .heading-review {
 
     font-size: 5.7rem;
-    margin-bottom: 27rem;
+    margin-bottom: 20rem;
 
     .important {
 
