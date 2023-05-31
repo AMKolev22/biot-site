@@ -195,7 +195,6 @@ body {
   font-family: "Outfit", sans-serif;
   width: 100%;
   height: 200vh;
-  margin-top: 10rem;
   display: flex;
   justify-content: space-around;
 }
@@ -363,8 +362,36 @@ body {
 
 .page-container .article
 {
-  width: 350px;
-  height: 500px;
+  width: 35rem;
+  height: 50rem;
   background-color: #000;
-  margin-top: 100px;
+  margin-top: 10rem;
+}
+.page-container .article img{
+  width: 35rem;
+  height: 22rem;
+}
+.page-container .article .origins-biot{
+  color: var(--secondary-color);
+  padding: 2rem;
+  font-size:2.3rem;
+}
+.page-container .article .love-robots{
+  color: var(--text-color);
+  padding: 2rem;
+  margin-top:-0.5rem ;
+}
+.page-container .article .read-about{
+  color:var(--text-color);
+  font-size: 1.9rem;
+  padding: 2rem;
+  margin-top: -2.5rem;
+}
+.page-container .article .the-brand{
+  color: var(--secondary-color);
+}
+.page-container .article .more-information-link{
+  padding:2rem;
+  font-size: 2.3rem;
+  color: var(--secondary-color);
 }
