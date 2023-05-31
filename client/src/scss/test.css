@@ -317,4 +317,11 @@
   .the-tasks{
     color: var(--secondary-color);
   }
-  
+  .logo-container{
+    margin-top: 1rem;
+    margin-left: 24rem;
+    width: 35rem;
+    height: 55rem;
+    color: #0D0C2B;
+    filter: grayscale;
+  }

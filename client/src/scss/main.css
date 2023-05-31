@@ -325,3 +325,19 @@ body {
   margin-top: 3rem;
   float: right;
 }/*# sourceMappingURL=main.css.map */
+
+.logo-container{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #0D0C2B;
+}
+.logo-container{
+  margin-top: 100rem;
+  margin-left: 24rem;
+  width: 35rem;
+  height: 55rem;
+  color: #0D0C2B;
+}
