@@ -348,9 +348,13 @@ body {
 
 .main-page .about-section .about-section-heading
 {
-  font-size: 3.3rem;
+  font-size: 5rem;
   text-align: center;
-  color: var(--text-color)
+  color: var(--text-color);
+  margin-top: 20rem;
+}
+.main-page .about-section .about-biot{
+  color:var(--secondary-color);
 }
 
 .page-container
@@ -365,33 +369,34 @@ body {
   width: 35rem;
   height: 50rem;
   background-color: #000;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .page-container .article img{
   width: 35rem;
   height: 22rem;
 }
-.page-container .article .origins-biot{
+.page-container .article .tentatively-heading{
   color: var(--secondary-color);
-  padding: 2rem;
-  font-size:2.3rem;
+  padding: 2.2rem;
+  font-size:2.5rem;
 }
-.page-container .article .love-robots{
+.page-container .article .special-subtitle{
   color: var(--text-color);
-  padding: 2rem;
-  margin-top:-0.5rem ;
+  padding: 2.2rem;
+  margin-top:-2.5rem ;
 }
-.page-container .article .read-about{
+.page-container .article .tentatively-text{
   color:var(--text-color);
   font-size: 1.9rem;
-  padding: 2rem;
+  padding: 2.2rem;
   margin-top: -2.5rem;
 }
 .page-container .article .the-brand{
   color: var(--secondary-color);
 }
 .page-container .article .more-information-link{
-  padding:2rem;
+  padding-left:20rem;
   font-size: 2.3rem;
   color: var(--secondary-color);
 }
+
