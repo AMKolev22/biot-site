@@ -1,122 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!---Added functionality for browser icon-->
-    <link rel="shortcut icon" type="image/x-icon" href="../src/assests/test.png" /> 
-    
-    <!---Font/s-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
-<link rel="stylesheet" href="../src/scss/main.css">
-<!--Scroll Js Library-->
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-<title>BIOT</title>
-
-</head>
-<body>
-    <section class = "splash-screen">
-    <div class="splash-content">
-            <div class = "navbar">
-                <img src="../src/assests/logo white.png" alt="" id = "logo">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---Added functionality for browser icon-->
+        <link rel="shortcut icon" type="image/x-icon" href="../src/assests/test.png" />
+        <!---Font/s-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../src/scss/main.css">
+        <!--Scroll Js Library-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <title>BIOT</title>
+    </head>
+    <body>
+        <section class = "splash-screen">
+            <div class="splash-content">
+                <div class = "navbar">
+                    <img src="../src/assests/logo white.png" alt="" id = "logo">
                     <ul class="nav-links">
                         <li class="nav-item"><a href="#" class = "nav-tag">Home</a></li>
                         <li class="nav-item"><a href="#" class = "nav-tag">About</a></li>
                         <li class="nav-item"><a href="#" class = "nav-tag">Blog</a></li>
                         <li class="nav-item"><a href="#" class = "nav-tag">Contact Us</a></li>
                     </ul>
-            </div>
-            <div class="video">
-                <div class = "head">
-                    <div class="content">
-                        <p class="heading">The Robots<br>The World's<br> Been Needing.</p>
-                        <img src="../src/assests/Vector 2.svg" alt="" id = "heading-underline">
-                        <br>
-                        <div class="btns" data-aos="fade-up">
+                </div>
+                <div class="video">
+                    <div class = "head">
+                        <div class="content">
+                            <p class="heading">The Robots<br>The World's<br> Been Needing.</p>
+                            <img src="../src/assests/Vector 2.svg" alt="" id = "heading-underline">
+                            <br>
+                            <div class="btns" data-aos="fade-up">
                                 <a href="#" id = "leftBtn" data-aos="fade-up">
-                                    READ MORE
+                                READ MORE
                                 </a>
-                                    <a href="#" id = "rightBtn" data-aos="fade-up">
-                                        <!-- <span id = "playbutton"><img src="../src/assests/play-button.svg" alt=""></span> -->
-                                        <span id = "playvideo">PLAY VIDEO<span>
-                                    </a>
+                                <a href="#" id = "rightBtn" data-aos="fade-up">
+                                    <!-- <span id = "playbutton"><img src="../src/assests/play-button.svg" alt=""></span> -->
+                                    <span id = "playvideo">PLAY VIDEO<span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <video loop="" muted="" autoplay="" preload="auto" id = "video" data-aos="fade-up">
+                        <source src ="../src/assests/video.mp4"  loading = "lazy">
+                    </video>
+                </div>
+            </div>
+            <div class="main-page">
+                <div class="main-content">
+                    <div class="future">
+                        <h1 class="section-heading" data-aos="fade-right">The Future Starts Now.</h1>
+                        <p class="our-robots">Our robots are already trusted by thousands of big-tech companies.</p>
+                        <h1 class="partners">PARTNERSHIPS</h1>
+                    </div>
+                    <div class="logo-container">
+                        <img src="../src/assests/img/logos.png">
+                    </div>
+                </div>
+                <div class="benefits">
+                    <div class="robots-content">
+                        <div class="first-half">
+                            <img class="eco-friendly-img" src="../src/assests/img/360_F_573731383_WiO4Oz3HqKHACnVj5HT0HGUsfYtvXNqG.jpg" alt="eco-friendly" data-aos = "fade-up">
+                            <h1 class="eco-heading" data-aos = "fade-down">
+                            Made From Eco-friendly Materials.
+                            <h1>
+                            <p class="eco-text" data-aos = "fade-up">At BIOT, every material used in the making of</br> the robot in 100% recyclable.</p>
+                            <img class="longer-batteries-img" src="../src/assests/img/The-Future-Scope-of-Humanoid-Robots-to-Look-Forward.jpg" alt="longer batteries" data-aos = "fade-up">
+                            <h1 class="longer-batteries-heading" data-aos = "fade-up">Longer-Lasting-Batteries</h1>
+                            <p class="batteries-text" data-aos = "fade-up"><b>The batteries in our robots are a mix </br> of sodium-ion and lithium-ion batteries, </br> thus providing benefits from both sides.</b></p>
+                        </div>
+                        <div class="second-half">
+                            <img class="robots-advantages-img" src="../src/assests/img/robo1.jpg" alt="robots-advantages" data-aos = "fade-up">
+                            <h1 class="advantages-heading" data-aos = "fade-up">The exaple heading</h1>
+                            <p class="advantages-text" data-aos = "fade-up"><b>A robot is a machine-especially one</br> programmable by a computer—capable of</br> carrying out a complex series of</br> actions automatically.</b></p>
+                            <img class="second-advantages-img" src="../src/assests/img/robo2.jpg" alt="second-advantages" data-aos = "fade-up">
+                            <h1 class="second-advantages-heading" data-aos = "fade-up">The exaple heading</h1>
+                            <p class="second-advantages-text" data-aos = "fade-up"><b>The branch of technology that deals</br> with the design, construction, operation,</br> and application of robots, as well as</br> computer systems for their control,</br> sensory feedback, and information processing</br> is robotics.</b></p>
                         </div>
                     </div>
                 </div>
-                <video loop="" muted="" autoplay="" preload="auto" id = "video" data-aos="fade-up">
-                    <source src ="../src/assests/video.mp4"  loading = "lazy">
-                </video>
-            </div>
-    </div>
-        <div class="main-page">
-            <div class="main-content">
-                <div class="future">
-                    <h1 class="section-heading" data-aos="fade-right">The Future Starts Now.</h1>
-                    <p class="our-robots">Our robots are already trusted by thousands of big-tech companies.</p>
-                    <h1 class="partners">PARTNERSHIPS</h1>
-                </div>
-                <div class="logo-container">
-                    <img src="../src/assests/img/logos.png">
-            </div>
-        </div>
-            <div class="benefits">
-                <div class="robots-content">
-
-                    <div class="first-half">
-
-                        <img class="eco-friendly-img" src="../src/assests/img/360_F_573731383_WiO4Oz3HqKHACnVj5HT0HGUsfYtvXNqG.jpg" alt="eco-friendly" data-aos = "fade-up">
-                        <h1 class="eco-heading" data-aos = "fade-down">Made From Eco-friendly Materials.<h1>
-                        <p class="eco-text" data-aos = "fade-up">At BIOT, every material used in the making of</br> the robot in 100% recyclable.</p>
-                        <img class="longer-batteries-img" src="../src/assests/img/The-Future-Scope-of-Humanoid-Robots-to-Look-Forward.jpg" alt="longer batteries" data-aos = "fade-up">
-                        <h1 class="longer-batteries-heading" data-aos = "fade-up">Longer-Lasting-Batteries</h1>
-                        <p class="batteries-text" data-aos = "fade-up"><b>The batteries in our robots are a mix </br> of sodium-ion and lithium-ion batteries, </br> thus providing benefits from both sides.</b></p>
-                    
-                    </div>
-                    
-                    <div class="second-half">
-
-                        <img class="robots-advantages-img" src="../src/assests/img/robo1.jpg" alt="robots-advantages" data-aos = "fade-up">
-                        <h1 class="advantages-heading" data-aos = "fade-up">The exaple heading</h1>
-                        <p class="advantages-text" data-aos = "fade-up"><b>A robot is a machine-especially one</br> programmable by a computer—capable of</br> carrying out a complex series of</br> actions automatically.</b></p>
-                        <img class="second-advantages-img" src="../src/assests/img/robo2.jpg" alt="second-advantages" data-aos = "fade-up">
-                        <h1 class="second-advantages-heading" data-aos = "fade-up">The exaple heading</h1>
-                        <p class="second-advantages-text" data-aos = "fade-up"><b>The branch of technology that deals</br> with the design, construction, operation,</br> and application of robots, as well as</br> computer systems for their control,</br> sensory feedback, and information processing</br> is robotics.</b></p>
-                    
-                    </div>        
-            </div>
-        </div>
-            <div class="review">
-                <h1 class="heading-review" data-aos="fade-up-left">Company CEOS are <b class="important">whirring</b> <span>buzzing</span> about our robots.</h1>
-                   <img src="../src/assests/img/Bill Gates.jpg" alt="bill gates" data-aos="fade-left">
-
+                <div class="review">
+                    <h1 class="heading-review" data-aos="fade-up-left">Company CEOS are <b class="important">whirring</b> <span>buzzing</span> about our robots.</h1>
+                    <img src="../src/assests/img/Bill Gates.jpg" alt="bill gates" data-aos="fade-left">
                     <div class="review-text" data-aos="fade-right">
                         <p class="ceo-review"><b>" Biot offers a unique combination of sustainable technology and</br>
-                                robotics that provide an incredible solution for many types</br> of tasks.
-                                The robots they produce are incredible user friendly and</br> make use of
-                                renewable energy.<i class="the-tasks"> They are very efficient in their</br> tasks, using minimal resources and
-                                produsing minimal waste.</i></br> Highly recommend Biot for anyone in the market 
-                                for a reliable</br> and sustainable robotic solution. "</b></p>
+                            robotics that provide an incredible solution for many types</br> of tasks.
+                            The robots they produce are incredible user friendly and</br> make use of
+                            renewable energy.<i class="the-tasks"> They are very efficient in their</br> tasks, using minimal resources and
+                            produsing minimal waste.</i></br> Highly recommend Biot for anyone in the market 
+                            for a reliable</br> and sustainable robotic solution. "</b>
+                        </p>
                         <h2 class="bill-gates-ceo">- Bill Gates, CEO</h2>
                     </div>
                 </div>
+                <div class="about-section">
+                    <h1 class="about-section-heading">ASDASDASDASDASD</h1>
+
+                    <div class="page-container">
+                        <div class="article"></div>
+                        <div class="article"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
-    </section>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-</body>
-
-</html> 
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
