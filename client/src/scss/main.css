@@ -190,16 +190,34 @@ body {
   margin-top: 31rem;
   margin-bottom: 3rem;
 }
+.main-page .ibm-logo {
+  width: 21rem;
+  height: auto;
+  margin-top: 9rem;
+  margin-left: 48rem;
+}
+.main-page .google-logo {
+  width: 21rem;
+  height: auto;
+  margin-top: 9rem;
+  margin-left: 30rem;
+}
+.main-page .amazon-logo {
+  width: 21rem;
+  height: auto;
+  margin-top: 9rem;
+  margin-left: 25rem;
+}
 .main-page .benefits {
   background: linear-gradient(180deg, #080309 0%, #0D0D2B 100%);
   font-family: "Outfit", sans-serif;
   width: 100%;
   height: 200vh;
-  display: flex;
-  justify-content: space-around;
+  margin-top: 10rem;
 }
 .main-page .benefits .robots-content {
   margin-top: -10rem;
+  margin-left: 29.5rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -326,29 +344,19 @@ body {
   float: right;
 }/*# sourceMappingURL=main.css.map */
 
-.logo-container{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  font-size: 18px;
-  color: #0D0C2B;
-  margin-top: 100rem;
-  margin-left: 2.5rem;
-}
 
 .main-page .about-section
 {
-  background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
+  background: linear-gradient(179.06deg, #080309 0.72%, #0D0D2B 99.12%);
   width: 100%;
-  height: 100rem;
+  height: 200vh;
   display:flex;
   flex-direction: column;
 }
 
 .main-page .about-section .about-section-heading
 {
-  font-size: 5rem;
+  font-size: 10rem;
   text-align: center;
   color: var(--text-color);
   margin-top: 20rem;
@@ -362,41 +370,112 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
+
+
+  margin-left: 25rem;
+  margin-right: 30rem;
+
+  margin-top: 15rem;
+
+
+}
+
+.page-container .content{
+  display: inline-block;
+  width: 45rem;
+  height: 49rem;
+  box-sizing: border-box;
+  background-color: #383838;
+
 }
 
 .page-container .article
 {
   width: 35rem;
-  height: 50rem;
+  height: 48rem;
   background-color: #000;
   margin-top: 15rem;
+
+  font-family: 'Inter', sans-serif;
 }
 .page-container .article img{
-  width: 35rem;
-  height: 22rem;
+  width: 45rem;
+  height: 25rem;
 }
 .page-container .article .tentatively-heading{
   color: var(--secondary-color);
-  padding: 2.2rem;
   font-size:2.5rem;
+  padding: 1.5rem;
+  font-weight: 700;
+  padding-left: 2rem;
 }
 .page-container .article .special-subtitle{
   color: var(--text-color);
   padding: 2.2rem;
-  margin-top:-2.5rem ;
+  padding-top: 1.3rem;
+  font-weight: 700;
 }
 .page-container .article .tentatively-text{
   color:var(--text-color);
   font-size: 1.9rem;
   padding: 2.2rem;
-  margin-top: -2.5rem;
+  padding-top: 0;
+  font-weight: 500;
 }
 .page-container .article .the-brand{
   color: var(--secondary-color);
 }
 .page-container .article .more-information-link{
-  padding-left:20rem;
-  font-size: 2.3rem;
+  font-size: 1.8rem;
   color: var(--secondary-color);
+  padding-left: 2.2rem;
+}
+
+#blog-button{
+  color: #000;
+  background-color: var(--secondary-color);
+  padding: 1.7rem 2rem;
+  text-decoration: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  width: fit-content;
+  font-size: 2.2rem;
+  margin-top: 15rem;
+  margin-left: 84.5rem;
+}
+
+.footer{
+  color: white;
+  margin-top: 23rem;
+  width: 100%;
+  height: 36vh;
+  background-color: black;
+  position: relative;
+}
+.footer img{
+  padding: 8rem 13rem;
+  padding-top: 5rem;
+}
+
+.footer .stuff{
+  display: flex;
+  margin-left: 90rem;
+  gap: 15rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  padding-top: 10rem;
+}
+
+.footer .stuff p {
+  margin-top: 3rem;
+  color: #1FE374;
+}
+
+.footer #rights {
+  padding-top: 6rem;
+  font-size: 1.5rem;
+  margin-left: 13rem;
 }
 
