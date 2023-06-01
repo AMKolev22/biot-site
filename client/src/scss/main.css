@@ -465,4 +465,42 @@ a {
   padding-top: 6rem;
   margin-left: 13rem;
   font-size: 1.5rem;
+}
+
+/*
+* =======================================================================================
+* BLOG PAGE STYLING
+* ======================================================================================
+*/
+.blog {
+  height: 100vh;
+  background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
+  padding-top: 0.5rem;
+  width: 99.2vw;
+  font-family: "Inter", sans-serif;
+}
+.blog .blog-content {
+  height: 93vh;
+  background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
+}
+.blog .blog-heading {
+  color: var(--text-color);
+  z-index: 999;
+  font-size: 6rem;
+  margin-left: 12rem;
+  margin-top: 10rem;
+}
+.blog h2 {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  margin-left: 13rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display: block;
+}
+.blog .category-item {
+  color: var(--text-color);
+  font-size: 2.5rem;
+  margin-top: 2.5rem;
+  margin-left: 13rem;
 }/*# sourceMappingURL=main.css.map */

@@ -737,3 +737,57 @@ a {
 
 }
 
+
+/*
+* =======================================================================================
+* BLOG PAGE STYLING
+* ======================================================================================
+*/
+.blog{
+
+  height: 100vh;
+  background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
+  padding-top: 0.5rem;
+  width: 99.2vw;
+  font-family: 'Inter', sans-serif;
+
+  .blog-content {
+    height: 93vh;
+    background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
+    
+  }
+
+  .blog-heading{
+    color: var(--text-color);
+    z-index: 999;
+    font-size: 6rem;
+    margin-left: 12rem;
+    margin-top: 10rem;
+  }
+
+  h2{
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-left: 13rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: block;
+  }
+
+  .category-item{
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+    margin-left: 13rem;
+  }
+
+
+
+  
+ 
+
+}
+
+
+
+
