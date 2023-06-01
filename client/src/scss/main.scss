@@ -800,31 +800,42 @@ a {
 
   .articles-div{
 
-    .article{
+    .article {
+
       max-width: 30.36rem;
-      word-wrap: break-word;
-      h6{
+      animation: load 0.4s;
+
+      h6 {
+
         font-size: 0.9rem;
         margin-top: 0.8rem;
         margin-bottom: 1.8rem;
         font-weight: 600;
+
       }
-      h1{
+
+      h1 {
+
         font-size: 2.3rem;
         font-weight: 600;
         color: var(--secondary-color);
         margin-bottom: 2.1rem;
         line-height: 3rem;
         font-style: none;
+
       }
 
-      p{
+      p {
+
         font-size: 2.3rem;
         font-weight: 400;
         max-width: 33rem;
         line-height: 3rem;
+
       }
-      #readMore{
+      
+      #readMore {
+
         margin-top: 3rem;
         color: var(--secondary-color);
         text-decoration: underline;
@@ -906,8 +917,11 @@ a {
   
       margin-top: 3rem;
       color: var(--dark-green-text);
+
   
       }
+
+      
   
     }
   
@@ -925,6 +939,17 @@ a {
    .robotics{
     color: var(--text-color);
    }
+
+   @keyframes load{
+    0%{
+      transform: translateY(-10rem);
+    }
+    100%{
+      transform: translateX(0);
+    }
+   }
+
+
 }
 
 

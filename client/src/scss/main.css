@@ -525,7 +525,7 @@ a {
 }
 .blog .articles-div .article {
   max-width: 30.36rem;
-  word-wrap: break-word;
+  animation: load 0.4s;
 }
 .blog .articles-div .article h6 {
   font-size: 0.9rem;
@@ -606,6 +606,14 @@ a {
 }
 .blog .robotics {
   color: var(--text-color);
+}
+@keyframes load {
+  0% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /*
