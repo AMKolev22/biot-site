@@ -6,6 +6,8 @@
 
     --text-color: #EFEFFC;
     --secondary-color: #BAFF39;
+    --background-color-primary: #383838;
+    --dark-green-text: #1fe374;
     
   }
 
@@ -21,6 +23,15 @@ body {
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 
+}
+
+a { 
+  text-decoration: none;
+
+}
+
+.more-information-link{
+  text-decoration: underline;
 }
 
 
@@ -296,7 +307,7 @@ body {
       width: 21rem;
       height: auto;
       margin-top: 9rem;
-      margin-left: 48rem;
+      margin-left: 32rem;
     }
     
     .google-logo{
@@ -509,7 +520,7 @@ body {
  
   .review-text{
 
-    background: linear-gradient(105deg, #B3B0B0 0.31%, rgba(166, 166, 166, 0) 323.68%);
+    background: var(--background-color-primary);
     border-bottom: 0.5rem solid #BAFF39;
 
     margin-top: -5rem;
@@ -537,7 +548,192 @@ body {
 
     }
   }
-  
  }
+ .about-section{
+
+  background: linear-gradient(179.06deg, #080309 0.72%, #0D0D2B 99.12%);
+  
+  width: 100%;
+  height: 200vh;
+
+  display: flex;
+  flex-direction: column;
+
+  &-heading{
+
+    font-size: 10rem;
+    text-align: center;
+    color: var(--text-color);
+
+    margin-top: 20rem;
+  }
+
+  .about-biot{
+
+    color:var(--secondary-color);
+
+  }
+
+  .page-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-left: 25rem;
+    margin-right: 35rem;
+    margin-top: 15rem;
+
+    .content {
+
+      display: inline-block;
+
+      width: 45rem;
+      height: 49rem;
+
+      box-sizing: border-box;
+
+      background-color: var(--background-color-primary);
+    }
+
+    .article { 
+
+      width: 35rem;
+      height: 48rem;
+
+      background-color: #000;
+      font-family: 'Inter';
+
+      margin-top: 15rem;
+
+      img {
+
+        width: 45rem;
+        height: 25rem;
+        
+      }
+
+      .tentatively { 
+      
+        &-heading { 
+        color: var(--secondary-color);
+        font-size: 2.5rem;
+        font-weight: 700;
+
+        padding: 1.5rem;
+        padding-left: 2rem;
+
+        }
+
+        &-text { 
+
+          color: var(--text-color);
+          font-size: 1.9rem;
+          font-weight: 500;
+
+          padding: 2.2rem;
+          padding-top: 0;
+
+        }
+
+      }
+
+      .special-subtitle {
+
+        color: var(--text-color);
+        font-weight: 700;
+
+        padding: 1.5rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+        
+      }
+
+      .the-brand{
+
+        color: var(--secondary-color);
+
+      }
+
+      .more-information-link {
+
+        color: var(--secondary-color);
+        font-size: 1.8rem;
+
+        padding-left: 2.2rem;
+
+      }
+
+    }
+  }
+ }
+
+ #blog-button{
+
+  color: #000;
+  background-color: var(--secondary-color);
+  text-decoration: inherit;
+  font-size: 2.2rem;
+  font-weight: 700;
+
+  padding: 1.7rem 2rem;
+  margin: 0 auto;
+  margin-top: 15rem;
+
+  width: fit-content;
+
+ }
+
+ .footer {
+
+  color: #fff;
+  background-color: #000;
+
+  margin-top: 23rem;
+  width: 100%;
+  height: 40vh;
+
+  position: relative;
+
+  img {
+
+    padding: 8rem 13rem;
+    padding-top: 5rem;
+
+  }
+
+  .stuff {
+
+    display: flex;
+    position: absolute;
+    top: 0;
+    gap: 15rem;
+    
+    margin-left: 90rem;
+    padding-top: 10rem;
+    
+    font-size: 2rem;
+
+    p {
+
+    margin-top: 3rem;
+    color: var(--dark-green-text);
+
+    }
+
+  }
+
+  #rights {
+
+    padding-top: 6rem;
+    margin-left: 13rem;
+
+    font-size: 1.5rem;
+  
+  }
+
+ }
+
+
 }
 

@@ -6,6 +6,8 @@
 :root {
   --text-color: #EFEFFC;
   --secondary-color: #BAFF39;
+  --background-color-primary: #383838;
+  --dark-green-text: #1fe374;
 }
 
 html {
@@ -17,8 +19,12 @@ body {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+.more-information-link {
+  text-decoration: underline;
 }
 
 .splash-screen {
@@ -198,7 +204,7 @@ a{
   width: 21rem;
   height: auto;
   margin-top: 9rem;
-  margin-left: 48rem;
+  margin-left: 32rem;
 }
 .main-page .google-logo {
   width: 21rem;
@@ -327,7 +333,7 @@ a{
   filter: grayscale(100%);
 }
 .main-page .review .review-text {
-  background: #383838;
+  background: var(--background-color-primary);
   border-bottom: 0.5rem solid #BAFF39;
   margin-top: -5rem;
   padding: 5.5rem 5.5rem;
@@ -346,142 +352,117 @@ a{
   font-size: 3.3rem;
   margin-top: 3rem;
   float: right;
-}/*# sourceMappingURL=main.css.map */
-
-
-.main-page .about-section
-{
+}
+.main-page .about-section {
   background: linear-gradient(179.06deg, #080309 0.72%, #0D0D2B 99.12%);
   width: 100%;
   height: 200vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
-
-.main-page .about-section .about-section-heading
-{
+.main-page .about-section-heading {
   font-size: 10rem;
   text-align: center;
   color: var(--text-color);
   margin-top: 20rem;
 }
-.main-page .about-section .about-biot{
-  color:var(--secondary-color);
+.main-page .about-section .about-biot {
+  color: var(--secondary-color);
 }
-
-.page-container
-{
+.main-page .about-section .page-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
   margin-left: 25rem;
   margin-right: 35rem;
-
   margin-top: 15rem;
-
-
 }
-
-.page-container .content{
+.main-page .about-section .page-container .content {
   display: inline-block;
   width: 45rem;
   height: 49rem;
   box-sizing: border-box;
-  background-color: #383838;
-
+  background-color: var(--background-color-primary);
 }
-
-.page-container .article
-{
+.main-page .about-section .page-container .article {
   width: 35rem;
   height: 48rem;
   background-color: #000;
+  font-family: "Inter";
   margin-top: 15rem;
-
-  font-family: 'Inter', sans-serif;
 }
-.page-container .article img{
+.main-page .about-section .page-container .article img {
   width: 45rem;
   height: 25rem;
 }
-.page-container .article .tentatively-heading{
+.main-page .about-section .page-container .article .tentatively-heading {
   color: var(--secondary-color);
-  font-size:2.5rem;
-  padding: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
+  padding: 1.5rem;
   padding-left: 2rem;
 }
-.page-container .article .special-subtitle{
+.main-page .about-section .page-container .article .tentatively-text {
   color: var(--text-color);
-  padding: 2.2rem;
-  padding-top: 1.3rem;
-  font-weight: 700;
-}
-.page-container .article .tentatively-text{
-  color:var(--text-color);
   font-size: 1.9rem;
+  font-weight: 500;
   padding: 2.2rem;
   padding-top: 0;
-  font-weight: 500;
 }
-.page-container .article .the-brand{
+.main-page .about-section .page-container .article .special-subtitle {
+  color: var(--text-color);
+  font-weight: 700;
+  padding: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.main-page .about-section .page-container .article .the-brand {
   color: var(--secondary-color);
 }
-.page-container .article .more-information-link{
+.main-page .about-section .page-container .article .more-information-link {
+  color: var(--secondary-color);
   font-size: 1.8rem;
-  color: var(--secondary-color);
   padding-left: 2.2rem;
 }
-
-#blog-button{
+.main-page #blog-button {
   color: #000;
   background-color: var(--secondary-color);
-  padding: 1.7rem 2rem;
   text-decoration: inherit;
-  font-size: inherit;
-  font-weight: 700;
-  width: fit-content;
   font-size: 2.2rem;
+  font-weight: 700;
+  padding: 1.7rem 2rem;
   margin: 0 auto;
   margin-top: 15rem;
+  width: -moz-fit-content;
+  width: fit-content;
 }
-
-.footer{
-  color: white;
+.main-page .footer {
+  color: #fff;
+  background-color: #000;
   margin-top: 23rem;
   width: 100%;
   height: 40vh;
-  background-color: black;
   position: relative;
 }
-.footer img{
+.main-page .footer img {
   padding: 8rem 13rem;
   padding-top: 5rem;
 }
-
-.footer .stuff{
+.main-page .footer .stuff {
   display: flex;
-  margin-left: 90rem;
-  gap: 15rem;
-  font-size: 2rem;
   position: absolute;
   top: 0;
+  gap: 15rem;
+  margin-left: 90rem;
   padding-top: 10rem;
+  font-size: 2rem;
 }
-
-.footer .stuff p {
+.main-page .footer .stuff p {
   margin-top: 3rem;
-  color: #1FE374;
+  color: var(--dark-green-text);
 }
-
-.footer #rights {
+.main-page .footer #rights {
   padding-top: 6rem;
-  font-size: 1.5rem;
   margin-left: 13rem;
-}
-
-.more-information-link{
-  text-decoration: underline;
-}
-
+  font-size: 1.5rem;
+}/*# sourceMappingURL=main.css.map */
