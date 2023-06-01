@@ -17,6 +17,10 @@ body {
   scroll-behavior: smooth;
 }
 
+a{
+  text-decoration: none;
+}
+
 .splash-screen {
   width: 99.2vw;
   height: 100vh;
@@ -323,7 +327,7 @@ body {
   filter: grayscale(100%);
 }
 .main-page .review .review-text {
-  background: linear-gradient(105deg, #B3B0B0 0.31%, rgba(166, 166, 166, 0) 323.68%);
+  background: #383838;
   border-bottom: 0.5rem solid #BAFF39;
   margin-top: -5rem;
   padding: 5.5rem 5.5rem;
@@ -371,10 +375,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   
-
-
   margin-left: 25rem;
-  margin-right: 30rem;
+  margin-right: 35rem;
 
   margin-top: 15rem;
 
@@ -441,15 +443,15 @@ body {
   font-weight: 700;
   width: fit-content;
   font-size: 2.2rem;
+  margin: 0 auto;
   margin-top: 15rem;
-  margin-left: 84.5rem;
 }
 
 .footer{
   color: white;
   margin-top: 23rem;
   width: 100%;
-  height: 36vh;
+  height: 40vh;
   background-color: black;
   position: relative;
 }
@@ -477,5 +479,9 @@ body {
   padding-top: 6rem;
   font-size: 1.5rem;
   margin-left: 13rem;
+}
+
+.more-information-link{
+  text-decoration: underline;
 }
 
