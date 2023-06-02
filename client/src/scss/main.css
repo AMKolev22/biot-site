@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+/*
+* =======================================================================================
+* CSS VARIABLES
+* ======================================================================================
+*/
 :root {
   --text-color: #EFEFFC;
   --secondary-color: #BAFF39;
@@ -28,6 +33,11 @@ a {
   text-decoration: underline;
 }
 
+/*
+* =======================================================================================
+* SPLASH-SCREEN STYLING
+* ======================================================================================
+*/
 .splash-screen {
   width: 99.2vw;
   height: 100vh;
@@ -82,6 +92,11 @@ a {
   transform: translateY(-0.5rem);
 }
 
+/*
+* =======================================================================================
+* VIDEO, HEADING AND BUTTONS STYLING
+* ======================================================================================
+*/
 .video {
   margin-top: 13rem;
   margin-left: 5rem;
@@ -164,6 +179,18 @@ a {
   100% {
     transform: translateX(0);
   }
+}
+/*
+* =======================================================================================
+* MAIN CONTENT
+* ======================================================================================
+*/
+.main-page {
+  /*
+  * =======================================================================================
+  * THE 4 IMAGES
+  * ======================================================================================
+  */
 }
 .main-page .main-content {
   background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
@@ -475,9 +502,9 @@ a {
 */
 .blog {
   height: 113vh;
+  width: 99.2vw;
   background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
   padding-top: 0.5rem;
-  width: 99.2vw;
   font-family: "Work Sans", sans-serif;
 }
 .blog .blog-content {
@@ -500,15 +527,15 @@ a {
   font-size: 2.5rem;
   margin-left: 13rem;
   margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   display: block;
 }
 .blog .category-item {
   color: var(--text-color);
+  font-family: "Work Sans", sans-serif;
   font-size: 2.3rem;
   margin-top: 2.5rem;
   margin-left: 13rem;
-  font-family: "Work Sans", sans-serif;
   font-weight: 600;
 }
 .blog .articles {
@@ -519,25 +546,25 @@ a {
   display: inline-flex;
   flex-direction: row;
   position: absolute;
-  margin-left: 19rem;
+  margin-left: 17rem;
   margin-top: -23rem;
-  gap: 8rem;
+  gap: 9rem;
 }
 .blog .articles-div .article {
   max-width: 30.36rem;
   animation: load 0.4s;
 }
 .blog .articles-div .article h6 {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   margin-top: 0.8rem;
-  margin-bottom: 1.8rem;
+  margin-bottom: 2rem;
   font-weight: 600;
 }
 .blog .articles-div .article h1 {
   font-size: 2.3rem;
   font-weight: 600;
   color: var(--secondary-color);
-  margin-bottom: 2.1rem;
+  margin-bottom: 2rem;
   line-height: 3rem;
   font-style: none;
 }
@@ -548,9 +575,10 @@ a {
   line-height: 3rem;
 }
 .blog .articles-div .article #readMore {
-  margin-top: 3rem;
+  margin-top: 2.3rem;
   color: var(--secondary-color);
   text-decoration: underline;
+  font-weight: 500;
 }
 .blog .articles-div #future-robots {
   margin-top: -2.3rem;
