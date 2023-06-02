@@ -504,3 +504,53 @@ a {
   margin-top: 2.5rem;
   margin-left: 13rem;
 }/*# sourceMappingURL=main.css.map */
+
+/*
+* =======================================================================================
+* About PAGE STYLING
+* ======================================================================================
+*/
+.About {
+  height: 100vh;
+  background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
+  padding-top: 0.5rem;
+  width: 99.2vw;
+  font-family: "Inter", sans-serif;
+}
+
+.about-content .aboout-text{
+  color: var(--text-color);
+  font-size: 2.5rem;
+  margin-top: 3.5rem;
+  margin-left: 72rem;
+}
+.about-content .footer {
+color: #fff;
+background-color: #000;
+margin-top: 36rem;
+width: 100%;
+height: 40vh;
+position: relative;
+}
+.about-content .footer img {
+padding: 8rem 13rem;
+padding-top: 5rem;
+}
+.about-content .footer .stuff {
+display: flex;
+position: absolute;
+top: 0;
+gap: 15rem;
+margin-left: 90rem;
+padding-top: 10rem;
+font-size: 2rem;
+}
+.about-content .footer .stuff p {
+margin-top: 3rem;
+color: var(--dark-green-text);
+}
+.about-content .footer #rights {
+padding-top: 6rem;
+margin-left: 13rem;
+font-size: 1.5rem;
+}
