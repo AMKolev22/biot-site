@@ -33,6 +33,7 @@
 ### Used code editor & collaborative service:
 
  
+
 <p align="left" gap="10px">
 <a href="https://code.visualstudio.com/"><img src="./repo/Visual_Studio_Code_1.35_icon.svg.png" alt="VS code logo" width=48px /></a>
 <a href="https://github.com/"><img src="https://img.icons8.com/nolan/344/github.png" alt="GitHub logo" width=52px /></a>
@@ -44,6 +45,7 @@
 ### Used tools for our visual elements:
 
  
+
 <p align="left" gap="10px">
 <a href="https://www.figma.com"><img src="./repo/figma logo.png" alt="Figma logo" width=48px/></a>
 <a href="https://www.adobe.com/bg/products/illustrator.html"><img src="./repo/Adobe_Illustrator_CC_icon.png" alt="Adobe logo" width=48px/></a>
@@ -87,10 +89,12 @@
 ### Presenting and Team Documentation
 
 
+
 - [BIOT Documentation](../biot-site/docs/BIOT%20documentation.docx)
 - [BIOT Presentation](../biot-site/docs/BIOT%20presentation.pptx)
  
-    
+
+
 <hr>
 
  
