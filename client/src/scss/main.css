@@ -536,8 +536,113 @@ a {
   font-size: 2.3rem;
   margin-top: 2.5rem;
   margin-left: 13rem;
-<<<<<<< HEAD
-}/*# sourceMappingURL=main.css.map */
+  font-weight: 600;
+}
+.blog .articles {
+  display: inline-flex;
+  flex-direction: column;
+}
+.blog .articles-div {
+  display: inline-flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 17rem;
+  margin-top: -23rem;
+  gap: 9rem;
+}
+.blog .articles-div .article {
+  max-width: 30.36rem;
+  animation: load 0.4s;
+}
+.blog .articles-div .article h6 {
+  font-size: 1.3rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.blog .articles-div .article h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-bottom: 2rem;
+  line-height: 3rem;
+  font-style: none;
+}
+.blog .articles-div .article p {
+  font-size: 2.3rem;
+  font-weight: 400;
+  max-width: 33rem;
+  line-height: 3rem;
+}
+.blog .articles-div .article #readMore {
+  margin-top: 2.3rem;
+  color: var(--secondary-color);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.blog .articles-div #future-robots {
+  margin-top: -2.3rem;
+  width: 33rem;
+  height: 19.1rem;
+}
+.blog .articles-div #past-robot {
+  transform: scale(1);
+  width: 30.36rem;
+}
+.blog .articles-div #history-robots {
+  margin-top: -1rem;
+}
+.blog .articles-div .article:last-child {
+  max-width: 33rem;
+  font-weight: 400;
+}
+.blog .articles-div .article:nth-child(2) {
+  max-width: 33rem;
+}
+.blog .articles-div .article-text {
+  color: var(--text-color);
+}
+.blog .footer {
+  color: #fff;
+  background-color: #000;
+  margin-top: 15rem;
+  width: 100%;
+  height: 38vh;
+  position: relative;
+}
+.blog .footer img {
+  padding: 8rem 13rem;
+  padding-top: 5rem;
+}
+.blog .footer .stuff {
+  display: flex;
+  position: absolute;
+  top: 0;
+  gap: 15rem;
+  margin-left: 90rem;
+  padding-top: 10rem;
+  font-size: 2rem;
+}
+.blog .footer .stuff p {
+  margin-top: 3rem;
+  color: var(--dark-green-text);
+}
+.blog .footer #rights {
+  padding-top: 6rem;
+  margin-left: 13rem;
+  font-size: 1.5rem;
+}
+.blog .robotics {
+  color: var(--text-color);
+}
+@keyframes load {
+  0% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 
 /*
 * =======================================================================================
