@@ -82,21 +82,13 @@
 
 ## 📄 Documents
 
- 
 
-### QA Documentation
-
-
-- [Test Plan](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Test%20plan.docx)
-- [QA Documentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20client%20QA%20Doc.xlsx)
-
- 
 
 ### Presenting and Team Documentation
 
 
-- [Team Documentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Documentation.docx)
-- [Presentation](https://github.com/codingburgas/2122-the-games--adventures-atmos-final-project-2022/raw/main/docs/Atmos%20-%20Presentation.pptx)
+- [BIOT Documentation](../biot-site/docs/BIOT%20documentation.docx)
+- [BIOT Presentation](../biot-site/docs/BIOT%20presentation.pptx)
  
     
 <hr>
