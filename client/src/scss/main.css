@@ -793,3 +793,44 @@ font-size: 1.5rem;
 .firts-part .ancient-civilizations .civilizations{
   color:var(--secondary-color);
 }
+
+.second-part .revolution{
+  color:var(--text-color);
+  font-size: 5rem;
+  margin-top: 20rem;
+  text-align: center;
+}
+.second-part .revolution .industrial-revolution{
+  color: var(--secondary-color);
+}
+.second-part .early-robotics{
+  color: var(--text-color);
+  margin-top: 2.3rem;
+  margin-left: 20rem;
+  font-size: 2rem;
+}
+.second-part .early-revolution{
+  color:var(--secondary-color);
+  text-align: center;
+  font-size: 2.3rem;
+  margin-top: 8rem;
+
+}
+.second-part .early-robotics .industrial-revolution{
+  color: var(--secondary-color);
+}
+.third-part .past-century{
+  color: var(--text-color);
+  margin-top: 20rem;
+  text-align: center;
+  font-size: 5rem;
+}
+.third-part .past-century .rise-century{
+  color:var(--secondary-color);
+}
+.third-part .world-war-robots{
+  color:var(--text-color);
+  font-size: 2rem;
+  margin-top: 2.3rem;
+  margin-left: 20rem;
+}
