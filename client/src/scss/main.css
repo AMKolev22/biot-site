@@ -758,7 +758,7 @@ font-size: 1.5rem;
 .img-article .history-img{
   width: auto;
   height: 60rem;
-  margin-top: 15rem;
+  margin-top: 10rem;
   margin-left: 15rem;
 }
 .table-content .robots-content{
@@ -772,4 +772,24 @@ font-size: 1.5rem;
   color:var(--text-color);
   margin-left: 15rem;
   font-size: 2.5rem;
+}
+.firts-part .early-years{
+  color: var(--text-color);
+  font-size: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+} 
+.firts-part .early-years .the-objects{
+  color: var(--secondary-color);
+}
+
+.firts-part .ancient-civilizations{
+  color:var(--text-color);
+  font-size: 2rem;
+  text-align:justify;
+  margin-left: 20rem;
+  margin-top: 2rem;
+}
+.firts-part .ancient-civilizations .civilizations{
+  color:var(--secondary-color);
 }
