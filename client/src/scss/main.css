@@ -826,11 +826,44 @@ font-size: 1.5rem;
   font-size: 5rem;
 }
 .third-part .past-century .rise-century{
-  color:var(--secondary-color);
+  color: var(--secondary-color);
 }
 .third-part .world-war-robots{
   color:var(--text-color);
   font-size: 2rem;
   margin-top: 2.3rem;
   margin-left: 20rem;
+}
+.third-part .world-war-robots .rise-century
+{
+  color: var(--secondary-color);
+}
+
+.bonus-question .evolution-robots{
+  color:var(--text-color);
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 20rem;
+}
+.bonus-question .evolution-robots .robotics-world{
+  color: var(--secondary-color);
+}
+.bonus-question .the-answer{
+  color:var(--text-color);
+  font-size: 2.5rem;
+  margin-left: 20rem;
+  margin-top: 10rem;
+}
+.bonus-question .the-answer .robotics-world{
+  color: var(--secondary-color);
+}
+
+.other-articles .posts{
+  color:var(--text-color);
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 30rem;
+}
+.other-articles .posts .the-specifically{
+  color:var(--secondary-color);
 }
