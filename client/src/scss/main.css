@@ -724,11 +724,14 @@ font-size: 1.5rem;
   text-decoration: underline;
 }
 
+
+
+
 .article-history-content .main-heaidng-article{
   color:var(--text-color);
   margin-top: 15rem;
   margin-left:15rem;
-  font-size: 7rem;
+  font-size: 6rem;
 }
 .article-history-content .main-heaidng-article .important-parts{
   color:var(--secondary-color);
@@ -755,4 +758,18 @@ font-size: 1.5rem;
 .img-article .history-img{
   width: auto;
   height: 60rem;
+  margin-top: 15rem;
+  margin-left: 15rem;
+}
+.table-content .robots-content{
+  color:var(--secondary-color);
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-left: 15rem;
+}
+.table-content .early-years{
+  margin-top: 5rem;
+  color:var(--text-color);
+  margin-left: 15rem;
+  font-size: 2.5rem;
 }
