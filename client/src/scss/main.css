@@ -811,7 +811,7 @@ font-size: 1.5rem;
 }
 .second-part .early-revolution{
   color:var(--secondary-color);
-  text-align: center;
+  margin-left: 20rem;
   font-size: 2.3rem;
   margin-top: 8rem;
 
@@ -819,6 +819,7 @@ font-size: 1.5rem;
 .second-part .early-robotics .industrial-revolution{
   color: var(--secondary-color);
 }
+
 .third-part .past-century{
   color: var(--text-color);
   margin-top: 20rem;
@@ -842,7 +843,7 @@ font-size: 1.5rem;
 .bonus-question .evolution-robots{
   color:var(--text-color);
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   margin-top: 20rem;
 }
 .bonus-question .evolution-robots .robotics-world{
