@@ -464,36 +464,6 @@ a {
   width: -moz-fit-content;
   width: fit-content;
 }
-.main-page .footer {
-  color: #fff;
-  background-color: #000;
-  margin-top: 23rem;
-  width: 100%;
-  height: 40vh;
-  position: relative;
-}
-.main-page .footer img {
-  padding: 8rem 13rem;
-  padding-top: 5rem;
-}
-.main-page .footer .stuff {
-  display: flex;
-  position: absolute;
-  top: 0;
-  gap: 15rem;
-  margin-left: 90rem;
-  padding-top: 10rem;
-  font-size: 2rem;
-}
-.main-page .footer .stuff p {
-  margin-top: 3rem;
-  color: var(--dark-green-text);
-}
-.main-page .footer #rights {
-  padding-top: 6rem;
-  margin-left: 13rem;
-  font-size: 1.5rem;
-}
 
 /*
 * =======================================================================================
@@ -501,8 +471,8 @@ a {
 * ======================================================================================
 */
 .blog {
-  height: 113vh;
-  width: 99.2vw;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
   padding-top: 0.5rem;
   font-family: "Work Sans", sans-serif;
@@ -602,36 +572,7 @@ a {
 .blog .articles-div .article-text {
   color: var(--text-color);
 }
-.blog .footer {
-  color: #fff;
-  background-color: #000;
-  margin-top: 15rem;
-  width: 100%;
-  height: 38vh;
-  position: relative;
-}
-.blog .footer img {
-  padding: 8rem 13rem;
-  padding-top: 5rem;
-}
-.blog .footer .stuff {
-  display: flex;
-  position: absolute;
-  top: 0;
-  gap: 15rem;
-  margin-left: 90rem;
-  padding-top: 10rem;
-  font-size: 2rem;
-}
-.blog .footer .stuff p {
-  margin-top: 3rem;
-  color: var(--dark-green-text);
-}
-.blog .footer #rights {
-  padding-top: 6rem;
-  margin-left: 13rem;
-  font-size: 1.5rem;
-}
+
 .blog .robotics {
   color: var(--text-color);
 }
@@ -650,10 +591,10 @@ a {
 * ======================================================================================
 */
 .about {
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
   padding-top: 0.5rem;
-  width: 99.2vw;
+  width: 100%;
   font-family: "Inter" sans-serif;
 }
 
@@ -667,7 +608,7 @@ a {
   margin-top: 3.5rem;
   margin-left: 72rem;
 }
-.about-content .footer {
+.footer {
 color: #fff;
 background-color: #000;
 margin-top: 18rem;
@@ -675,26 +616,26 @@ width: 100%;
 height: 40vh;
 position: relative;
 }
-.about-content .footer img {
-padding: 8rem 13rem;
+.footer img {
+padding: 8rem 5rem;
 padding-top: 5rem;
 }
-.about-content .footer .stuff {
+.footer .stuff {
 display: flex;
 position: absolute;
 top: 0;
 gap: 15rem;
-margin-left: 90rem;
+margin-left: 70rem;
 padding-top: 10rem;
 font-size: 2rem;
 }
-.about-content .footer .stuff p {
+.footer .stuff p {
 margin-top: 3rem;
 color: var(--dark-green-text);
 }
-.about-content .footer #rights {
+.footer #rights {
 padding-top: 6rem;
-margin-left: 13rem;
+margin-left: 5rem;
 font-size: 1.5rem;
 }
 .about-content .about-content-view .categories-div .about-heading{
@@ -832,7 +773,7 @@ font-size: 1.5rem;
 .third-part .world-war-robots{
   color:var(--text-color);
   font-size: 2rem;
-  margin-top: 2.3rem;
+  margin-top: 2.5rem;
   margin-left: 20rem;
 }
 .third-part .world-war-robots .rise-century
