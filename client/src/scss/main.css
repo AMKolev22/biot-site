@@ -381,29 +381,27 @@ a {
   margin-top: 3rem;
   float: right;
 }
-.main-page .about-section {
+.about-section {
   background: linear-gradient(179.06deg, #080309 0.72%, #0D0D2B 99.12%);
   width: 100%;
-  height: 200vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
-.main-page .about-section-heading {
+.about-section-heading {
   font-size: 10rem;
   text-align: center;
   color: var(--text-color);
   margin-top: 20rem;
 }
-.main-page .about-section .about-biot {
+.about-section .about-biot {
   color: var(--secondary-color);
 }
 .page-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-left: 25rem;
-  margin-right: 35rem;
-  margin-top: 15rem;
+
 }
 .page-container .content {
   display: inline-block;
@@ -413,8 +411,8 @@ a {
   background-color: var(--background-color-primary);
 }
 .page-container .article {
-  width: 35rem;
-  height: 48rem;
+  width: 45rem;
+  height: 49rem;
   background-color: #000;
   font-family: "Inter";
   margin-top: 15rem;
@@ -452,7 +450,7 @@ a {
   font-size: 1.8rem;
   padding-left: 2.2rem;
 }
-.main-page #blog-button {
+#blog-button {
   color: #000;
   background-color: var(--secondary-color);
   text-decoration: inherit;
