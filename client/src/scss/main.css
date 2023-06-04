@@ -397,7 +397,7 @@ a {
 .main-page .about-section .about-biot {
   color: var(--secondary-color);
 }
-.main-page .about-section .page-container {
+.page-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -405,49 +405,49 @@ a {
   margin-right: 35rem;
   margin-top: 15rem;
 }
-.main-page .about-section .page-container .content {
+.page-container .content {
   display: inline-block;
   width: 45rem;
   height: 49rem;
   box-sizing: border-box;
   background-color: var(--background-color-primary);
 }
-.main-page .about-section .page-container .article {
+.page-container .article {
   width: 35rem;
   height: 48rem;
   background-color: #000;
   font-family: "Inter";
   margin-top: 15rem;
 }
-.main-page .about-section .page-container .article img {
+.page-container .article img {
   width: 45rem;
   height: 25rem;
 }
-.main-page .about-section .page-container .article .tentatively-heading {
+.page-container .article .tentatively-heading {
   color: var(--secondary-color);
   font-size: 2.5rem;
   font-weight: 700;
   padding: 1.5rem;
   padding-left: 2rem;
 }
-.main-page .about-section .page-container .article .tentatively-text {
+.page-container .article .tentatively-text {
   color: var(--text-color);
   font-size: 1.9rem;
   font-weight: 500;
   padding: 2.2rem;
   padding-top: 0;
 }
-.main-page .about-section .page-container .article .special-subtitle {
+.page-container .article .special-subtitle {
   color: var(--text-color);
   font-weight: 700;
   padding: 1.5rem;
   padding-left: 2rem;
   padding-top: 1rem;
 }
-.main-page .about-section .page-container .article .the-brand {
+.page-container .article .the-brand {
   color: var(--secondary-color);
 }
-.main-page .about-section .page-container .article .more-information-link {
+.page-container .article .more-information-link {
   color: var(--secondary-color);
   font-size: 1.8rem;
   padding-left: 2.2rem;
