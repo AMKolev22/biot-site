@@ -542,10 +542,15 @@ a {
   max-width: 33rem;
   line-height: 3rem;
 }
-.blog .articles-div .article #readMore {
-  margin-top: 2.3rem;
-  color: var(--secondary-color);
+.read-more
+{
+  font-size: 2.3rem;
   text-decoration: underline;
+
+} 
+.blog .articles-div .article #readMore {
+  text-decoration: underline;
+  color: var(--secondary-color);
   font-weight: 500;
 }
 .blog .articles-div #future-robots {
