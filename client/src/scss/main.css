@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 *, *::after, *::before {
   padding: 0;
   margin: 0;
@@ -14,6 +14,7 @@
   --secondary-color: #BAFF39;
   --background-color-primary: #383838;
   --dark-green-text: #1fe374;
+  --footer-text-color: #00FF6F;
 }
 
 html {
@@ -39,8 +40,8 @@ a {
 * ======================================================================================
 */
 .splash-screen {
-  width: 100%;
-  height: 100%;
+  width: 99.2vw;
+  height: 100vh;
   overflow: inherit;
   background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
   padding-top: 0.5rem;
@@ -381,76 +382,78 @@ a {
   margin-top: 3rem;
   float: right;
 }
-.about-section {
+.main-page .about-section {
   background: linear-gradient(179.06deg, #080309 0.72%, #0D0D2B 99.12%);
   width: 100%;
-  height: 100%;
+  height: 200vh;
   display: flex;
   flex-direction: column;
 }
-.about-section-heading {
+.main-page .about-section-heading {
   font-size: 10rem;
   text-align: center;
   color: var(--text-color);
   margin-top: 20rem;
 }
-.about-section .about-biot {
+.main-page .about-section .about-biot {
   color: var(--secondary-color);
 }
-.page-container {
+.main-page .about-section .page-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
+  margin-left: 25rem;
+  margin-right: 35rem;
+  margin-top: 15rem;
 }
-.page-container .content {
+.main-page .about-section .page-container .content {
   display: inline-block;
   width: 45rem;
   height: 49rem;
   box-sizing: border-box;
   background-color: var(--background-color-primary);
 }
-.page-container .article {
-  width: 45rem;
-  height: 49rem;
+.main-page .about-section .page-container .article {
+  width: 35rem;
+  height: 48rem;
   background-color: #000;
   font-family: "Inter";
   margin-top: 15rem;
 }
-.page-container .article img {
+.main-page .about-section .page-container .article img {
   width: 45rem;
   height: 25rem;
 }
-.page-container .article .tentatively-heading {
+.main-page .about-section .page-container .article .tentatively-heading {
   color: var(--secondary-color);
   font-size: 2.5rem;
   font-weight: 700;
   padding: 1.5rem;
   padding-left: 2rem;
 }
-.page-container .article .tentatively-text {
+.main-page .about-section .page-container .article .tentatively-text {
   color: var(--text-color);
   font-size: 1.9rem;
   font-weight: 500;
   padding: 2.2rem;
   padding-top: 0;
 }
-.page-container .article .special-subtitle {
+.main-page .about-section .page-container .article .special-subtitle {
   color: var(--text-color);
   font-weight: 700;
   padding: 1.5rem;
   padding-left: 2rem;
   padding-top: 1rem;
 }
-.page-container .article .the-brand {
+.main-page .about-section .page-container .article .the-brand {
   color: var(--secondary-color);
 }
-.page-container .article .more-information-link {
+.main-page .about-section .page-container .article .more-information-link {
   color: var(--secondary-color);
   font-size: 1.8rem;
   padding-left: 2.2rem;
 }
-#blog-button {
+.main-page #blog-button {
   color: #000;
   background-color: var(--secondary-color);
   text-decoration: inherit;
@@ -462,6 +465,36 @@ a {
   width: -moz-fit-content;
   width: fit-content;
 }
+.main-page .footer {
+  color: #fff;
+  background-color: #000;
+  margin-top: 23rem;
+  width: 100%;
+  height: 40vh;
+  position: relative;
+}
+.main-page .footer img {
+  padding: 8rem 13rem;
+  padding-top: 5rem;
+}
+.main-page .footer .stuff {
+  display: flex;
+  position: absolute;
+  top: 0;
+  gap: 15rem;
+  margin-left: 90rem;
+  padding-top: 10rem;
+  font-size: 2rem;
+}
+.main-page .footer .stuff p {
+  margin-top: 3rem;
+  color: var(--dark-green-text);
+}
+.main-page .footer #rights {
+  padding-top: 6rem;
+  margin-left: 13rem;
+  font-size: 1.5rem;
+}
 
 /*
 * =======================================================================================
@@ -469,8 +502,8 @@ a {
 * ======================================================================================
 */
 .blog {
-  height: 100%;
-  width: 100%;
+  height: 113vh;
+  width: 99.2vw;
   background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
   padding-top: 0.5rem;
   font-family: "Work Sans", sans-serif;
@@ -542,15 +575,10 @@ a {
   max-width: 33rem;
   line-height: 3rem;
 }
-.read-more
-{
-  font-size: 2.3rem;
-  text-decoration: underline;
-
-} 
 .blog .articles-div .article #readMore {
-  text-decoration: underline;
+  margin-top: 2.3rem;
   color: var(--secondary-color);
+  text-decoration: underline;
   font-weight: 500;
 }
 .blog .articles-div #future-robots {
@@ -575,9 +603,35 @@ a {
 .blog .articles-div .article-text {
   color: var(--text-color);
 }
-
-.blog .robotics {
-  color: var(--text-color);
+.blog .footer {
+  color: #fff;
+  background-color: #000;
+  margin-top: 15rem;
+  width: 100%;
+  height: 38vh;
+  position: relative;
+}
+.blog .footer img {
+  padding: 8rem 13rem;
+  padding-top: 5rem;
+}
+.blog .footer .stuff {
+  display: flex;
+  position: absolute;
+  top: 0;
+  gap: 15rem;
+  margin-left: 90rem;
+  padding-top: 10rem;
+  font-size: 2rem;
+}
+.blog .footer .stuff p {
+  margin-top: 3rem;
+  color: var(--dark-green-text);
+}
+.blog .footer #rights {
+  padding-top: 6rem;
+  margin-left: 13rem;
+  font-size: 1.5rem;
 }
 @keyframes load {
   0% {
@@ -588,231 +642,332 @@ a {
   }
 }
 
+.robotics {
+  color: var(--text-color);
+}
+
 /*
 * =======================================================================================
-* About PAGE STYLING
+* ABOUT PAGE STYLING
 * ======================================================================================
 */
 .about {
-  height: 100%;
+  height: 130vh;
+  width: 99.2vw;
   background: linear-gradient(180.03deg, #0D0C2B 0.03%, #020209 214.23%);
   padding-top: 0.5rem;
+  font-family: "Inter", sans-serif;
+}
+.about a {
+  color: var(--text-color) "";
+}
+.about-content {
   width: 100%;
-  font-family: "Inter" sans-serif;
 }
-
-.about-content{
+.about-content .footer {
+  color: #fff;
+  background-color: #000;
+  margin-top: 18rem;
   width: 100%;
+  height: 37vh;
+  position: relative;
 }
-
-.about-content .aboout-text{
-  color: var(--text-color);
-  font-size: 2.5rem;
-  margin-top: 3.5rem;
-  margin-left: 72rem;
+.about-content .footer img {
+  padding: 8rem 13rem;
+  padding-top: 5rem;
 }
-.footer {
-color: #fff;
-background-color: #000;
-margin-top: 18rem;
-width: 100%;
-height: 40vh;
-position: relative;
+.about-content .footer .stuff {
+  display: flex;
+  position: absolute;
+  top: 0;
+  gap: 15rem;
+  margin-left: 90rem;
+  padding-top: 10rem;
+  font-size: 2rem;
 }
-.footer img {
-padding: 8rem 5rem;
-padding-top: 5rem;
-}
-.footer .stuff {
-display: flex;
-position: absolute;
-top: 0;
-gap: 15rem;
-margin-left: 70rem;
-padding-top: 10rem;
-font-size: 2rem;
-}
-.footer .stuff p {
-margin-top: 3rem;
-color: var(--dark-green-text);
-}
-.footer #rights {
-padding-top: 6rem;
-margin-left: 5rem;
-font-size: 1.5rem;
-}
-.about-content .about-content-view .categories-div .about-heading{
-  color:var(--text-color);
-  font-size: 5.5rem;
-  margin-top: 10rem;
-  margin-left: 10.8rem;
-}
-
-.about-content .about-content-view .categories-div h2{
-  color:var(--text-color);
-  font-size: 3rem;
-  margin-top: 2rem;
-  margin-left: 10.8rem;
-  
-}
-
-.about-content .about-content-view .categories-div h3{
-  color:var(--text-color);
-  font-size: 3rem;
+.about-content .footer .stuff p {
   margin-top: 3rem;
-  margin-left: 10.8rem;
-  font-weight: 400;
+  color: var(--footer-text-color);
 }
-.about-content .about-content-view .categories-div .the-reason{
-  color:var(--secondary-color);
+.about-content .footer #rights {
+  padding-top: 6rem;
+  margin-left: 13rem;
+  font-size: 1.5rem;
+}
+.about-content .categories-div .about-heading {
+  color: var(--text-color);
+  font-size: 5.5rem;
+  margin-top: 7rem;
+  margin-left: 10.8rem;
+}
+.about-content .categories-div h2 {
+  color: var(--text-color);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  margin-top: 5rem;
+  margin-left: 10.8rem;
+}
+.about-content .categories-div h3 {
+  color: var(--text-color);
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-left: 10.8rem;
+}
+.about-content .categories-div .the-reason {
+  color: var(--secondary-color);
+  font-weight: 900;
   text-decoration: underline;
 }
 
-
-
-
-.article-history-content .main-heaidng-article{
-  color:var(--text-color);
-  margin-top: 15rem;
-  margin-left:15rem;
-  font-size: 6rem;
+/*
+* =======================================================================================
+* FUTURE AI ARTICLE STYLING HERE
+* ======================================================================================
+*/
+.robot-ai {
+  height: 113vh;
+  width: 99.2vw;
+  background: linear-gradient(140.73deg, #0D0C2B 23.2%, #020209 78.37%);
+  padding-top: 0.5rem;
+  font-family: "Inter", sans-serif;
 }
-.article-history-content .main-heaidng-article .important-parts{
-  color:var(--secondary-color);
+.robot-ai .robots-content {
+  height: 113vh;
+  background: linear-gradient(204.59deg, #0D0C2B 10.45%, #020209 93.53%);
 }
-.article-history-content .anonymous{
-  font-size: 2.3rem;
-  margin-top: 2rem;
-  margin-left: 15rem;
-  color:var(--text-color);
+.robot-ai .ai-heading {
+  margin-left: 25rem;
+  margin-bottom: 3rem;
 }
-.article-history-content .anonymous .spn-important{
-  color:var(--secondary-color);
-}
-.article-history-content .update{
-    color:var(--text-color);
-    font-size:2.1rem ;
-    margin-top: 2rem;
-    margin-left:15rem ;
-}
-.article-history-content .update .date{
-  color:var(--secondary-color);
-}
-
-.img-article .history-img{
-  width: auto;
-  height: 60rem;
-  margin-top: 10rem;
-  margin-left: 15rem;
-}
-.table-content .robots-content{
-  color:var(--secondary-color);
-  font-size: 4rem;
-  margin-top: 3rem;
-  margin-left: 15rem;
-}
-.table-content .early-years{
-  margin-top: 5rem;
-  color:var(--text-color);
-  margin-left: 15rem;
-  font-size: 2.5rem;
-}
-.firts-part .early-years{
-  color: var(--text-color);
-  font-size: 5rem;
-  margin-top: 5rem;
-  text-align: center;
-} 
-.firts-part .early-years .the-objects{
+.robot-ai h1 {
   color: var(--secondary-color);
-}
-
-.firts-part .ancient-civilizations{
-  color:var(--text-color);
-  font-size: 2rem;
-  text-align:justify;
+  font-size: 5.2rem;
+  font-weight: 800;
+  margin-top: 12rem;
   margin-left: 20rem;
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.firts-part .ancient-civilizations .civilizations{
-  color:var(--secondary-color);
-}
-
-.second-part .revolution{
-  color:var(--text-color);
-  font-size: 5rem;
-  margin-top: 20rem;
-  text-align: center;
-}
-.second-part .revolution .industrial-revolution{
-  color: var(--secondary-color);
-}
-.second-part .early-robotics{
+.robot-ai p {
   color: var(--text-color);
-  margin-top: 2.3rem;
-  margin-left: 20rem;
+  font-weight: 400;
   font-size: 2rem;
-}
-.second-part .early-revolution{
-  color:var(--secondary-color);
-  margin-left: 20rem;
-  font-size: 2.3rem;
-  margin-top: 8rem;
-
-}
-.second-part .early-robotics .industrial-revolution{
-  color: var(--secondary-color);
-}
-
-.third-part .past-century{
-  color: var(--text-color);
-  margin-top: 20rem;
-  text-align: center;
-  font-size: 5rem;
-}
-.third-part .past-century .rise-century{
-  color: var(--secondary-color);
-}
-.third-part .world-war-robots{
-  color:var(--text-color);
-  font-size: 2rem;
+  margin-left: 25rem;
   margin-top: 2.5rem;
-  margin-left: 20rem;
 }
-.third-part .world-war-robots .rise-century
-{
+.robot-ai #date {
+  margin-bottom: 10rem;
+}
+.robot-ai .green {
   color: var(--secondary-color);
+  font-weight: 600;
 }
-
-.bonus-question .evolution-robots{
-  color:var(--text-color);
-  text-align: center;
-  font-size: 3.8rem;
-  margin-top: 20rem;
+.robot-ai #future-image {
+  transform: scale(0.85);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
-.bonus-question .evolution-robots .robotics-world{
-  color: var(--secondary-color);
+.robot-ai .robot-main {
+  height: 144vh;
+  width: 100%;
+  margin-top: -30rem;
+  background: linear-gradient(360deg, #0D0C2B 0%, #020209 104.21%);
 }
-.bonus-question .the-answer{
-  color:var(--text-color);
-  font-size: 2.5rem;
-  margin-left: 20rem;
-  margin-top: 10rem;
-}
-.bonus-question .the-answer .robotics-world{
-  color: var(--secondary-color);
-}
-
-.other-articles .posts{
-  color:var(--text-color);
-  text-align: center;
-  font-size: 5rem;
-  margin-top: 30rem;
-}
-.other-articles .posts .the-specifically{
-  color:var(--secondary-color);
-}
-.page-container .article .content .future-robots{
+.robot-ai .robot-main h2 {
   color: var(--text-color);
-  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
+.robot-ai .robot-main .table-of-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2.2rem;
+  padding-top: 30rem;
+  margin-left: 38rem;
+}
+.robot-ai .robot-main .table-of-contents #table-of-contents {
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.robot-ai .robot-main p {
+  margin-top: 8rem;
+  font-size: 2.3rem;
+  margin-left: 38rem;
+  max-width: 95rem;
+  line-height: 4rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.robot-ai .robot-main h1 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 20rem;
+  font-size: 5.3rem;
+  padding-top: 4rem;
+  font-weight: 800;
+  line-height: 8rem;
+}
+.robot-ai .robot-main .article-information {
+  height: 120vh;
+  width: 100%;
+  background: linear-gradient(0.15deg, #080309 0.13%, #0D0D2B 94.47%);
+  margin-top: -3rem;
+}
+.robot-ai .robot-main #article-text {
+  max-width: 150rem;
+  font-size: 2rem;
+  padding-right: 30rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-left: 25rem;
+  margin-top: 12rem;
+  line-height: 3rem;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+.robot-ai .robot-main #article2 {
+  background: linear-gradient(180deg, #080309 0%, #0D0D2B 100%);
+  margin-top: -20rem;
+  padding-top: 10rem;
+}
+.robot-ai .robot-main #article3 {
+  margin-top: -30rem;
+  height: 100vh;
+}
+.robot-ai .robot-main #article3 p {
+  max-width: 180rem;
+}
+.robot-ai .robot-main .related {
+  height: 170vh;
+  background: linear-gradient(179.06deg, #080309 0.72%, #0D0D2B 99.12%);
+}
+.robot-ai .robot-main .newsletter {
+  height: 12rem;
+  width: 35rem;
+  background: #BAEED0;
+  margin-left: 25rem;
+  border-radius: 0.5rem;
+}
+.robot-ai .robot-main .newsletter h4 {
+  font-size: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 2.5rem;
+}
+.robot-ai .robot-main .newsletter input[type=email] {
+  margin-top: 2rem;
+  margin-left: 2.3rem;
+  padding-left: 2rem;
+  width: 20rem;
+  height: 4.2rem;
+  display: inline;
+  border: 1px solid #000000;
+}
+.robot-ai .robot-main .newsletter input[type=submit] {
+  display: inline;
+  width: 9rem;
+  height: 4.4rem;
+  background: #000000;
+  color: var(--secondary-color);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  border: none;
+  position: absolute;
+  margin-top: 2rem;
+}
+.robot-ai .robot-main .page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 25rem;
+  margin-right: 35rem;
+  margin-top: 5rem;
+}
+.robot-ai .robot-main .page-container .content {
+  display: inline-block;
+  width: 45rem;
+  height: 49rem;
+  box-sizing: border-box;
+  background-color: var(--background-color-primary);
+}
+.robot-ai .robot-main .page-container .article {
+  width: 35rem;
+  height: 48rem;
+  background-color: #000;
+  font-family: "Inter";
+  margin-top: 15rem;
+}
+.robot-ai .robot-main .page-container .article img {
+  width: 45rem;
+  height: 25rem;
+}
+.robot-ai .robot-main .page-container .article .tentatively-heading {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 1.5rem;
+  padding-left: 2rem;
+}
+.robot-ai .robot-main .page-container .article .tentatively-text {
+  color: var(--text-color);
+  font-size: 1.9rem;
+  font-weight: 500;
+  padding: 2.2rem;
+  padding-top: 0;
+}
+.robot-ai .robot-main .page-container .article .special-subtitle {
+  color: var(--text-color);
+  font-weight: 700;
+  padding: 1.5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+.robot-ai .robot-main .page-container .article .the-brand {
+  color: var(--secondary-color);
+}
+.robot-ai .robot-main .page-container .article .more-information-link {
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  padding-left: 2.2rem;
+}
+.robot-ai .footer {
+  color: #fff;
+  background-color: #000;
+  margin-top: 23rem;
+  width: 100%;
+  height: 37vh;
+  position: relative;
+}
+.robot-ai .footer img {
+  padding: 8rem 13rem;
+  padding-top: 5rem;
+}
+.robot-ai .footer .stuff {
+  display: flex;
+  position: absolute;
+  top: 0;
+  gap: 15rem;
+  margin-left: 90rem;
+  padding-top: 10rem;
+  font-size: 2rem;
+}
+.robot-ai .footer .stuff h5 {
+  margin-top: 3rem;
+  color: var(--dark-green-text);
+  font-weight: 400;
+  font-size: 2rem;
+}
+.robot-ai .footer .stuff h4 {
+  font-size: 3rem;
+}
+.robot-ai .footer #rights {
+  padding-top: 6rem;
+  margin-left: 13rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */
