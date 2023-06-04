@@ -807,3 +807,7 @@ font-size: 1.5rem;
 .other-articles .posts .the-specifically{
   color:var(--secondary-color);
 }
+.page-container .article .content .future-robots{
+  color: var(--text-color);
+  font-size: 1.4rem;
+}
