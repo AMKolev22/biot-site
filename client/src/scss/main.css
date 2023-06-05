@@ -282,6 +282,7 @@ a {
   margin-top: 18rem;
   width: 50rem;
   height: 30rem;
+  filter: grayscale(100%);
 }
 .main-page .benefits .robots-content .eco-heading {
   color: var(--secondary-color);
@@ -298,6 +299,7 @@ a {
   height: 30rem;
   margin-left: 72rem;
   margin-top: -150rem;
+  filter: grayscale(100%);
 }
 .main-page .benefits .robots-content .longer-batteries-heading {
   color: var(--secondary-color);
@@ -315,6 +317,7 @@ a {
   width: 50rem;
   height: 30rem;
   margin-left: 1rem;
+  filter: grayscale(100%);
 }
 .main-page .benefits .robots-content .advantages-heading {
   color: var(--secondary-color);
@@ -331,6 +334,7 @@ a {
 .main-page .benefits .robots-content .second-advantages-img {
   width: 50rem;
   height: 30rem;
+  filter: grayscale(100%);
   margin-top: -45rem;
   margin-left: 72rem;
 }
