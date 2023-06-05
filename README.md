@@ -89,8 +89,8 @@
 
 
 
-- [BIOT Documentation](biot-site/docs/BIOT-documentation.docx)
-- [BIOT Presentation](biot-site/docs/BIOT-presentation.pptx)
+- [BIOT Documentation](docs/BIOT-documentation.docx)
+- [BIOT Presentation](docs/BIOT-presentation.pptx)
  
 
 
