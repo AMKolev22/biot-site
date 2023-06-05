@@ -9,7 +9,7 @@
  
 
 <p align = "center">
-<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AMKolev/biot-site">
+<img alt="GitHub contributors" src="https://img.shields.io/github/contributors/AMKolev22/biot-site">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/AMKolev22/biot-site">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/AMKolev22/biot-site">
 <img alt="GitHub languages count"src="https://img.shields.io/github/languages/count/AMKolev22/biot-site">
