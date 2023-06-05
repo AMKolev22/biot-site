@@ -135,6 +135,7 @@ a {
 
 }
 
+
 /*
 * =======================================================================================
 * VIDEO, HEADING AND BUTTONS STYLING
@@ -223,6 +224,8 @@ a {
             font-size: inherit;
             color: inherit;
 
+            transition: 0.3s;
+
 
             #playvideo {
 
@@ -262,6 +265,20 @@ a {
 100%{
   transform: translateX(0);
 }
+}
+
+
+.fullscreen{
+  position: absolute;
+  z-index: 999;
+  margin-top: -15rem;
+  margin-right: 13rem;
+  width: 200rem;
+  height: 120rem;
+}
+
+.hidden{
+  display: none;
 }
 
 /*
@@ -531,8 +548,10 @@ a {
 
   .heading-review {
 
+    margin-top: 10rem;
+
     font-size: 5.7rem;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
 
     .important {
 
@@ -758,7 +777,11 @@ a {
     p {
 
     margin-top: 3rem;
-    color: var(--dark-green-text);
+    color: var(--footer-text-color);
+
+    transition: 0.1s;
+
+    font-weight: 400;
 
     }
 
@@ -770,6 +793,8 @@ a {
     margin-left: 13rem;
 
     font-size: 1.5rem;
+
+    font-weight: 400;
   
   }
 
@@ -977,7 +1002,8 @@ a {
       p {
   
       margin-top: 3rem;
-      color: var(--dark-green-text);
+      color: var(--footer-text-color);
+      transition: 0.1s;
 
   
       }
@@ -1011,11 +1037,15 @@ a {
 
     }
    }
+
+
 }
 
 .robotics{
   color: var(--text-color);
  }
+
+  
 /*
 * =======================================================================================
 * ABOUT PAGE STYLING
@@ -1075,6 +1105,7 @@ a {
 
           margin-top: 3rem;
           color: var(--footer-text-color);
+          transition: 0.1s;
 
         }
 
@@ -1525,9 +1556,11 @@ a {
       h5 {
   
       margin-top: 3rem;
-      color: var(--dark-green-text);
+      color: var(--footer-text-color);
       font-weight: 400;
       font-size: 2rem;
+
+      transition: 0.1s;
   
       }
 
@@ -1536,6 +1569,8 @@ a {
       }
   
     }
+
+  
   
     #rights {
   
@@ -1553,6 +1588,15 @@ a {
 }
 
 
+/*
+* =======================================================================================
+* ROBOTICS HISTORY
+* ======================================================================================
+*/
+
+#robothistory{
+  height: 200vh;
+}
 
 
 

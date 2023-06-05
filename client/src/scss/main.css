@@ -155,6 +155,7 @@ a {
   text-decoration: inherit;
   font-size: inherit;
   color: inherit;
+  transition: 0.3s;
 }
 .video .content #rightBtn #playvideo {
   margin-left: 3rem;
@@ -181,6 +182,19 @@ a {
     transform: translateX(0);
   }
 }
+.fullscreen {
+  position: absolute;
+  z-index: 999;
+  margin-top: -15rem;
+  margin-right: 13rem;
+  width: 200rem;
+  height: 120rem;
+}
+
+.hidden {
+  display: none;
+}
+
 /*
 * =======================================================================================
 * MAIN CONTENT
@@ -344,8 +358,9 @@ a {
   color: var(--text-color);
 }
 .main-page .review .heading-review {
+  margin-top: 10rem;
   font-size: 5.7rem;
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
 .main-page .review .heading-review .important {
   color: var(--secondary-color);
@@ -488,12 +503,15 @@ a {
 }
 .main-page .footer .stuff p {
   margin-top: 3rem;
-  color: var(--dark-green-text);
+  color: var(--footer-text-color);
+  transition: 0.1s;
+  font-weight: 400;
 }
 .main-page .footer #rights {
   padding-top: 6rem;
   margin-left: 13rem;
   font-size: 1.5rem;
+  font-weight: 400;
 }
 
 /*
@@ -626,7 +644,8 @@ a {
 }
 .blog .footer .stuff p {
   margin-top: 3rem;
-  color: var(--dark-green-text);
+  color: var(--footer-text-color);
+  transition: 0.1s;
 }
 .blog .footer #rights {
   padding-top: 6rem;
@@ -688,6 +707,7 @@ a {
 .about-content .footer .stuff p {
   margin-top: 3rem;
   color: var(--footer-text-color);
+  transition: 0.1s;
 }
 .about-content .footer #rights {
   padding-top: 6rem;
@@ -958,9 +978,10 @@ a {
 }
 .robot-ai .footer .stuff h5 {
   margin-top: 3rem;
-  color: var(--dark-green-text);
+  color: var(--footer-text-color);
   font-weight: 400;
   font-size: 2rem;
+  transition: 0.1s;
 }
 .robot-ai .footer .stuff h4 {
   font-size: 3rem;
@@ -970,4 +991,13 @@ a {
   margin-left: 13rem;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+/*
+* =======================================================================================
+* ROBOTICS HISTORY
+* ======================================================================================
+*/
+#robothistory {
+  height: 200vh;
 }/*# sourceMappingURL=main.css.map */
