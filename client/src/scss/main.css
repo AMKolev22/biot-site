@@ -47,6 +47,19 @@ a {
   text-decoration: underline;
 }
 
+html::-webkit-scrollbar-track {
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+  background-color: #F5F5F5;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+}
+
 /*
 * =======================================================================================
 * SPLASH-SCREEN STYLING
