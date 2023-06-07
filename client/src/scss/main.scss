@@ -44,12 +44,13 @@ Almost anything else is just to make things work
 html {
 
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
 
     font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
+    
 
 }
 
