@@ -32,6 +32,7 @@ Almost anything else is just to make things work
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
