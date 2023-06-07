@@ -90,8 +90,11 @@
                             <div class="newsletter">
                                 <div class = "newsletter-content">
                                     <h4>Subscribe to our newsletter?</h4>
-                                    <input type="email" placeholder="Your email address">
-                                    <input type="submit" value="SUBSCRIBE">
+                                    <form action="index.js" target="dummyframe">
+                                        <input type="email" placeholder="Your email address" id = "email">
+                                        <input type="submit" value="SUBSCRIBE" id = "sub">
+                                        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+                                    </form>
                                 </div>
                             </div>
                             <h1 id = "related-posts" data-aos="fade-left">Related <span class = "robotics">Posts</span></h1>
@@ -148,8 +151,11 @@
         </main>
     </section>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
 <script>
         AOS.init();
 </script>
+<script src="index.js"></script>
 </body>
 </html>
